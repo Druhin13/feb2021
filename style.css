@@ -1,4 +1,4 @@
-/* Generated on: Tue Feb 09 2021 17:18:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Feb 09 2021 17:26:22 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2429,11 +2429,13 @@ textarea.w-select {
 .content-caps.topbar {
 	position: relative;
 	display: inline-block;
+	margin-top: 3vh;
 	padding-right: 0vw;
 }
 
 .content-caps.topbar.menu {
 	position: fixed;
+	margin-top: 3vh;
 }
 
 .column-3 {
@@ -2624,6 +2626,10 @@ textarea.w-select {
 
 	.content-caps {
 		font-size: 1.8vw;
+	}
+
+	.content-caps.topbar.menu {
+		margin-top: 3vh;
 	}
 
 	.content-regular {
