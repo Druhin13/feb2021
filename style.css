@@ -1,4 +1,4 @@
-/* Generated on: Tue Feb 09 2021 07:09:43 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Feb 09 2021 17:18:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2344,6 +2344,11 @@ textarea.w-select {
 	padding-top: 5vh;
 	padding-right: 5.5vw;
 	padding-bottom: 5vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	border-bottom: 1px solid #f3ece4;
 	background-color: #101010;
 }
@@ -2357,7 +2362,7 @@ textarea.w-select {
 	padding-right: 5vw;
 	font-size: 4vw;
 	line-height: 1;
-	letter-spacing: -0.35vw;
+	letter-spacing: -0.3vw;
 }
 
 .col-layout {
@@ -2419,6 +2424,16 @@ textarea.w-select {
 
 .content-caps.skills {
 	padding-right: 0vw;
+}
+
+.content-caps.topbar {
+	position: relative;
+	display: inline-block;
+	padding-right: 0vw;
+}
+
+.content-caps.topbar.menu {
+	position: fixed;
 }
 
 .column-3 {
@@ -2515,6 +2530,7 @@ textarea.w-select {
 
 .div-block-4.resume {
 	margin-right: 0vw;
+	margin-left: 5.5vw;
 }
 
 .div-block-5 {
@@ -2534,10 +2550,11 @@ textarea.w-select {
 
 .div-block-5.resume-holder {
 	width: 100%;
-	-webkit-box-pack: end;
-	-webkit-justify-content: flex-end;
-	-ms-flex-pack: end;
-	justify-content: flex-end;
+	margin-top: 2vh;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 	-webkit-box-align: end;
 	-webkit-align-items: flex-end;
 	-ms-flex-align: end;
@@ -2562,6 +2579,38 @@ textarea.w-select {
 	opacity: 0.5;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+}
+
+.topbar {
+	position: absolute;
+	z-index: 500;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 2vh;
+}
+
+.columns-2 {
+	width: 100vw;
+}
+
+.column-5 {
+	padding-right: 0px;
+	padding-left: 5.5vw;
+}
+
+.column-6 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-right: 5.5vw;
+	padding-left: 0px;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
 
 @media screen and (max-width: 991px) {
@@ -2635,6 +2684,10 @@ textarea.w-select {
 		display: none;
 	}
 
+	.column-2 {
+		margin-bottom: 1.5vh;
+	}
+
 	.content-caps {
 		font-size: 3.8vw;
 	}
@@ -2656,8 +2709,7 @@ textarea.w-select {
 	}
 
 	.div-block-4 {
-		padding-right: 7vw;
-		padding-left: 7vw;
+		padding: 1.4vh 7vw;
 	}
 
 	.div-block-4.resume {
