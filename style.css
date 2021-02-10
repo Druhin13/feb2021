@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 10 2021 14:10:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 10 2021 14:19:40 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2725,7 +2725,7 @@ textarea.w-select {
 	}
 
 	.background-video {
-		height: 20vh;
+		height: 30vh;
 	}
 
 	.footer {
@@ -2812,6 +2812,10 @@ textarea.w-select {
 		-webkit-justify-content: flex-start;
 		-ms-flex-pack: start;
 		justify-content: flex-start;
+	}
+
+	.background-video {
+		height: 30vh;
 	}
 
 	.column-5 {
