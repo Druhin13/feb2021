@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 10 2021 14:19:40 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 10 2021 16:34:38 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2466,6 +2466,10 @@ textarea.w-select {
 	width: 60%;
 }
 
+.content-regular.cs.pp {
+	width: 100%;
+}
+
 .caps-group {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -2540,6 +2544,17 @@ textarea.w-select {
 .div-block-4.resume {
 	margin-right: 0vw;
 	margin-left: 5.5vw;
+}
+
+.div-block-4.discontinued {
+	-webkit-transition: border-color 300ms ease, color 300ms ease, background-color 300ms ease;
+	transition: border-color 300ms ease, color 300ms ease, background-color 300ms ease;
+}
+
+.div-block-4.discontinued:hover {
+	border-color: #f3ece4;
+	background-color: #ad2626;
+	color: #f3ece4;
 }
 
 .div-block-5 {
