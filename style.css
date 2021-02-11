@@ -1,4 +1,4 @@
-/* Generated on: Thu Feb 11 2021 11:44:28 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Feb 11 2021 13:50:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2320,7 +2320,7 @@ textarea.w-select {
 	position: relative;
 	width: 100vw;
 	margin-bottom: 15vh;
-	padding-top: 5vh;
+	padding-top: 0vh;
 }
 
 .sub-heading {
