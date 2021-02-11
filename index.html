@@ -593,23 +593,18 @@
 	</script>
 
 
+<!--
 	<script src="locomotive-scroll.min.js"></script>
 	<script>
 		(function() {
-			var scroll = new LocomotiveScroll();
+			var scroll = new LocomotiveScroll({
+				el: document.querySelector('[data-scroll-container]'),
+				smooth: true,
+				multiplier: 0.1
+			});
 		})();
 	</script>
-
-
-	<script>
-		//		import LocomotiveScroll from 'locomotive-scroll';
-
-		const scroll = new LocomotiveScroll({
-			el: document.querySelector('[data-scroll-container]'),
-			smooth: true,
-			multiplier: 0.45
-		});
-	</script>
+-->
 
 
 	<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
