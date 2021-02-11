@@ -1,4 +1,4 @@
-/* Generated on: Thu Feb 11 2021 07:41:44 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Feb 11 2021 11:44:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2517,7 +2517,8 @@ textarea.w-select {
 }
 
 .blank-space.cs.video-animate {
-	height: 20vh;
+	display: block;
+	height: 10vh;
 }
 
 .div-block-4 {
