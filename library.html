@@ -1,7 +1,29 @@
+<link href="locomotive-scroll.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
 <script>
 	//scrollbar hide
 
 	var style = document.createElement("style");
 	style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
 	document.head.appendChild(style);
+</script>
+
+
+<script src="locomotive-scroll.min.js"></script>
+
+
+<script>
+
+	const scroll = new LocomotiveScroll({
+		el: document.querySelector('[data-scroll-container]'),
+		smooth: true,
+		multiplier: 0.45
+	});
 </script>
