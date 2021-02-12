@@ -1,4 +1,4 @@
-/* Generated on: Thu Feb 11 2021 17:25:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Feb 12 2021 14:04:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2320,7 +2320,6 @@ textarea.w-select {
 	position: relative;
 	width: 100vw;
 	margin-bottom: 15vh;
-	padding-top: 2vh;
 }
 
 .sub-heading {
@@ -2438,6 +2437,7 @@ textarea.w-select {
 .content-caps.topbar.menu {
 	position: fixed;
 	margin-top: 3vh;
+	margin-left: 5vw;
 }
 
 .column-3 {
@@ -2710,6 +2710,10 @@ textarea.w-select {
 
 .footer-link:hover {
 	text-decoration: underline;
+}
+
+.div-block-6 {
+	position: fixed;
 }
 
 @media screen and (max-width: 991px) {
