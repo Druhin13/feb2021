@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 14:17:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 14:53:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2440,6 +2440,7 @@ textarea.w-select {
 
 .image {
 	height: 100vh;
+	margin-left: 4vw;
 }
 
 .div-block-2 {
@@ -2506,6 +2507,18 @@ textarea.w-select {
 	margin-left: 4vw;
 }
 
+.columns._2020.ex {
+	margin-top: 0vh;
+	padding-top: 2vh;
+	padding-bottom: 3vh;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid hsla(0, 0%, 85.9%, 0.5);
+}
+
+.columns._2020.ex.last-border {
+	border-bottom-color: #dbdbdb;
+}
+
 .columns._2019 {
 	margin-top: 7vh;
 }
@@ -2515,6 +2528,7 @@ textarea.w-select {
 }
 
 .h2 {
+	display: inline-block;
 	font-size: 5vw;
 	line-height: 0.9;
 	white-space: normal;
@@ -2540,6 +2554,10 @@ textarea.w-select {
 	white-space: nowrap;
 }
 
+.column.ex {
+	padding-left: 5vw;
+}
+
 .column-2 {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -2559,6 +2577,28 @@ textarea.w-select {
 	-webkit-flex: 0 0 auto;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
+}
+
+.column-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.space12 {
+	height: 12vh;
+}
+
+.work-expanded {
+	display: none;
+}
+
+.section-4 {
+	background-color: #101010;
+}
+
+.div-block-6 {
+	width: 82vw;
+	margin-left: 4vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -2665,6 +2705,7 @@ textarea.w-select {
 
 	.image {
 		height: 100%;
+		margin-left: 0vw;
 	}
 
 	.div-block-2.mobile {
