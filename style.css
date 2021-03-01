@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 09:39:00 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 11:43:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2427,12 +2427,49 @@ textarea.w-select {
 	background-repeat: no-repeat;
 }
 
+.section-2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100vh;
+	padding-bottom: 0px;
+	background-color: #101010;
+}
+
+.image {
+	height: 100%;
+}
+
+.div-block-2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 30vw;
+	margin-left: 2vw;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.div-block-3 {
+	margin-top: 7vh;
+}
+
 @media screen and (max-width: 991px) {
 	.text-block {
 		font-size: 2vw;
 	}
 
 	.text-block.menu {
+		width: 75%;
 		font-size: 1.75vw;
 	}
 
@@ -2445,6 +2482,35 @@ textarea.w-select {
 		width: 18vw;
 		height: 18vh;
 	}
+
+	.section-2 {
+		height: auto;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.image {
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+
+	.div-block-2 {
+		display: none;
+		width: 70vw;
+	}
+
+	.div-block-2.mobile {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		margin-top: 10vh;
+		margin-left: 4vw;
+		padding-bottom: 10vh;
+	}
 }
 
 @media screen and (max-width: 479px) {
@@ -2455,7 +2521,7 @@ textarea.w-select {
 	}
 
 	.section {
-		height: 100vh;
+		height: auto;
 	}
 
 	.link-block.w--current {
@@ -2471,6 +2537,11 @@ textarea.w-select {
 		font-size: 4vw;
 	}
 
+	.text-block.menu {
+		width: 100%;
+		font-size: 4vw;
+	}
+
 	.menu-bar {
 		display: none;
 	}
@@ -2478,6 +2549,7 @@ textarea.w-select {
 	.name-big.others {
 		width: 95%;
 		margin-left: 5vw;
+		padding-bottom: 12.5vh;
 	}
 
 	.scroll-down {
@@ -2485,6 +2557,15 @@ textarea.w-select {
 		right: 10%;
 		width: 25vw;
 		height: 13vh;
+	}
+
+	.div-block-2.mobile {
+		width: 85vw;
+		margin-left: 5vw;
+	}
+
+	.div-block-3 {
+		margin-top: 5vh;
 	}
 }
 
