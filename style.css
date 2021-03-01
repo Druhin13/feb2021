@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 07:42:30 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 07:50:59 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2323,6 +2323,16 @@ textarea.w-select {
 	margin-left: 4vw;
 }
 
+.link-block.menu-mobile.w--current {
+	left: auto;
+	top: 0%;
+	right: 0%;
+	bottom: auto;
+	display: none;
+	margin-right: 4vw;
+	margin-left: 0vw;
+}
+
 .body {
 	font-family: Heln, Arial, sans-serif;
 	color: #dbdbdb;
@@ -2388,6 +2398,7 @@ textarea.w-select {
 }
 
 .name-big.others {
+	width: 96%;
 	margin-left: 4vw;
 }
 
@@ -2414,6 +2425,67 @@ textarea.w-select {
 	background-position: 50% 50%;
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 991px) {
+	.text-block {
+		font-size: 2vw;
+	}
+
+	.text-block.menu {
+		font-size: 1.75vw;
+	}
+
+	.name-big.others {
+		width: 96%;
+	}
+
+	.scroll-down {
+		top: 50%;
+		width: 18vw;
+		height: 18vh;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.div-block {
+		height: 40vh;
+		margin-right: 5vw;
+		margin-left: 5vw;
+	}
+
+	.section {
+		height: 100vh;
+	}
+
+	.link-block.w--current {
+		margin-left: 5vw;
+	}
+
+	.link-block.menu-mobile.w--current {
+		display: block;
+		margin-right: 5vw;
+	}
+
+	.text-block {
+		font-size: 4vw;
+	}
+
+	.menu-bar {
+		display: none;
+	}
+
+	.name-big.others {
+		width: 95%;
+		margin-left: 5vw;
+	}
+
+	.scroll-down {
+		top: 60%;
+		right: 10%;
+		width: 25vw;
+		height: 13vh;
+	}
 }
 
 @font-face {
