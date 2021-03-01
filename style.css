@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 15:09:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 15:54:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2632,6 +2632,64 @@ textarea.w-select {
 
 .space6 {
 	height: 6vh;
+}
+
+.section-5 {
+	padding-right: 0px;
+	padding-bottom: 25vh;
+	background-color: #101010;
+}
+
+.div-block-7 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 82vw;
+	margin-left: 4vw;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.div-block-8 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 82vw;
+	margin-left: 4vw;
+}
+
+.div-block-9 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 30vw;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.space3 {
+	height: 3vh;
+}
+
+.div-block-10 {
+	width: 5vw;
 }
 
 @media screen and (max-width: 991px) {
