@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 07:29:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 07:42:30 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2399,6 +2399,21 @@ textarea.w-select {
 	font-weight: 400;
 	letter-spacing: -0.65vw;
 	text-transform: uppercase;
+}
+
+.scroll-down {
+	position: absolute;
+	left: auto;
+	top: 40%;
+	right: 20%;
+	bottom: 0%;
+	width: 12vw;
+	height: 18vh;
+	padding-right: 0px;
+	background-image: url("https://uploads-ssl.webflow.com/603baa99d556fc6b798e0570/603c9ab0e4f27368184bb267_scrolldown.svg");
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 @font-face {
