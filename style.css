@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 07:50:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Mar 01 2021 09:39:00 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2304,7 +2304,6 @@ textarea.w-select {
 }
 
 .section {
-	height: 200vh;
 	background-color: #101010;
 }
 
@@ -2400,6 +2399,7 @@ textarea.w-select {
 .name-big.others {
 	width: 96%;
 	margin-left: 4vw;
+	padding-bottom: 25vh;
 }
 
 .h1 {
