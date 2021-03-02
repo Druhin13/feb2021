@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 02 2021 05:41:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 02 2021 06:05:00 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2778,6 +2778,10 @@ textarea.w-select {
 		font-size: 1.75vw;
 	}
 
+	.text-block.menu.footer-text {
+		width: 50vw;
+	}
+
 	.name-big.others {
 		width: 96%;
 	}
@@ -2790,6 +2794,7 @@ textarea.w-select {
 
 	.section-2 {
 		height: auto;
+		padding-bottom: 15vh;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: column;
@@ -2820,6 +2825,78 @@ textarea.w-select {
 
 	.link {
 		font-size: 2vw;
+	}
+
+	.section-3 {
+		padding-bottom: 15vh;
+	}
+
+	.div-block-4 {
+		width: 80vw;
+	}
+
+	.columns._2020 {
+		width: 80vw;
+	}
+
+	.columns._2019 {
+		width: 80vw;
+	}
+
+	.columns._2021 {
+		width: 80vw;
+	}
+
+	.h2.footer-text-loop {
+		font-size: 6vw;
+	}
+
+	.section-4 {
+		padding-bottom: 15vh;
+	}
+
+	.div-block-6 {
+		width: 80vw;
+	}
+
+	.columns-2 {
+		width: 70vw;
+	}
+
+	.column-4 {
+		padding-top: 2vh;
+		padding-bottom: 2.3vh;
+	}
+
+	.column-5 {
+		padding-top: 2vh;
+		padding-bottom: 2.3vh;
+	}
+
+	.column-6 {
+		padding-top: 2vh;
+		padding-bottom: 2.3vh;
+	}
+
+	.section-5 {
+		padding-bottom: 15vh;
+	}
+
+	.div-block-7 {
+		width: 80vw;
+	}
+
+	.div-block-8 {
+		width: 80vw;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.div-block-9 {
+		width: 70vw;
 	}
 }
 
@@ -2854,6 +2931,10 @@ textarea.w-select {
 		font-size: 4vw;
 	}
 
+	.text-block.menu.footer-text {
+		width: 90vw;
+	}
+
 	.menu-bar {
 		display: none;
 	}
@@ -2878,7 +2959,7 @@ textarea.w-select {
 	}
 
 	.div-block-2.mobile {
-		width: 85vw;
+		width: 90vw;
 		margin-left: 5vw;
 	}
 
@@ -2899,6 +2980,86 @@ textarea.w-select {
 		display: block;
 		margin-right: 5vw;
 		margin-left: 0vw;
+	}
+
+	.div-block-4 {
+		margin-left: 5vw;
+	}
+
+	.columns._2020 {
+		width: 85vw;
+		margin-left: 5vw;
+	}
+
+	.columns._2020.ex {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100vw;
+		margin-left: 0vw;
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	.columns._2019 {
+		margin-left: 5vw;
+	}
+
+	.columns._2021 {
+		margin-left: 5vw;
+	}
+
+	.h2 {
+		font-size: 6vw;
+	}
+
+	.h2.footer-text-loop {
+		font-size: 10vw;
+	}
+
+	.space12 {
+		height: 8vh;
+	}
+
+	.div-block-6 {
+		margin-left: 5vw;
+	}
+
+	.columns-2 {
+		width: 100vw;
+		margin-left: 0vw;
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	.column-6 {
+		padding-left: 1vw;
+	}
+
+	.space6 {
+		height: 4vh;
+	}
+
+	.div-block-7 {
+		margin-left: 5vw;
+	}
+
+	.div-block-8 {
+		width: 90vw;
+		margin-left: 5vw;
+	}
+
+	.div-block-9 {
+		width: 90vw;
+	}
+
+	.section-6 {
+		height: 80vh;
+	}
+
+	.work-contracted {
+		display: none;
 	}
 }
 
