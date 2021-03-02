@@ -1,4 +1,4 @@
-/* Generated on: Mon Mar 01 2021 15:58:45 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 02 2021 05:24:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2353,6 +2353,12 @@ textarea.w-select {
 	letter-spacing: 0vw;
 }
 
+.text-block.menu.footer-text {
+	width: 40vw;
+	margin-bottom: 4.5vh;
+	text-align: center;
+}
+
 .menu-bar {
 	position: fixed;
 	left: auto;
@@ -2483,6 +2489,18 @@ textarea.w-select {
 	display: none;
 }
 
+.link.footer-links {
+	position: static;
+	margin-top: 0vh;
+	margin-left: 0vw;
+	color: #101010;
+}
+
+.link.footer-links.copyright {
+	margin-right: 10vw;
+	margin-left: 10vw;
+}
+
 .section-3 {
 	padding-bottom: 25vh;
 	background-color: #101010;
@@ -2529,9 +2547,16 @@ textarea.w-select {
 
 .h2 {
 	display: inline-block;
+	margin-bottom: 0vh;
 	font-size: 5vw;
 	line-height: 0.9;
+	text-align: left;
 	white-space: normal;
+}
+
+.h2.footer-text-loop {
+	margin-bottom: 8vh;
+	white-space: nowrap;
 }
 
 .column {
@@ -2589,7 +2614,7 @@ textarea.w-select {
 }
 
 .work-expanded {
-	display: none;
+	display: block;
 }
 
 .section-4 {
@@ -2690,6 +2715,51 @@ textarea.w-select {
 
 .div-block-10 {
 	width: 5vw;
+}
+
+.section-6 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 75vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #101010;
+}
+
+.footer {
+	position: static;
+	left: 0%;
+	top: auto;
+	right: 0%;
+	bottom: 0%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100vw;
+	height: 4.5vh;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #dbdbdb;
 }
 
 @media screen and (max-width: 991px) {
