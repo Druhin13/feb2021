@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 02 2021 06:05:00 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Mar 02 2021 06:10:48 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2555,6 +2555,8 @@ textarea.w-select {
 }
 
 .h2.footer-text-loop {
+	overflow: hidden;
+	width: 100vw;
 	margin-bottom: 8vh;
 	text-align: left;
 	white-space: nowrap;
@@ -3015,6 +3017,10 @@ textarea.w-select {
 	}
 
 	.h2.footer-text-loop {
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 auto;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
 		font-size: 10vw;
 	}
 
