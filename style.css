@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 03 2021 14:59:46 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Mar 03 2021 15:10:04 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2580,6 +2580,7 @@ textarea.w-select {
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
 	text-align: left;
+	text-decoration: none;
 	white-space: nowrap;
 }
 
@@ -2866,6 +2867,8 @@ textarea.w-select {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	color: #dbdbdb;
+	text-decoration: none;
 }
 
 .track-horizontal {
@@ -2881,6 +2884,7 @@ textarea.w-select {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
