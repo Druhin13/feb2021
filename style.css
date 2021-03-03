@@ -1,4 +1,4 @@
-/* Generated on: Tue Mar 02 2021 12:43:12 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Mar 03 2021 12:47:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2334,6 +2334,7 @@ textarea.w-select {
 }
 
 .body {
+	background-color: #dbdbdb;
 	font-family: Heln, Arial, sans-serif;
 	color: #dbdbdb;
 	font-size: 1vw;
@@ -2410,7 +2411,7 @@ textarea.w-select {
 .name-big.others {
 	width: 96%;
 	margin-left: 4vw;
-	padding-bottom: 25vh;
+	padding-bottom: 12.5vh;
 }
 
 .h1 {
@@ -2448,8 +2449,13 @@ textarea.w-select {
 	display: -ms-flexbox;
 	display: flex;
 	height: auto;
-	padding-bottom: 25vh;
+	padding-top: 12.5vh;
+	padding-bottom: 12.5vh;
 	background-color: #101010;
+}
+
+.section-2.section-cv {
+	padding-bottom: 25vh;
 }
 
 .image {
@@ -2510,7 +2516,8 @@ textarea.w-select {
 }
 
 .section-3 {
-	padding-bottom: 25vh;
+	padding-top: 12.5vh;
+	padding-bottom: 12.5vh;
 	background-color: #101010;
 }
 
@@ -2629,7 +2636,8 @@ textarea.w-select {
 }
 
 .section-4 {
-	padding-bottom: 25vh;
+	padding-top: 12.5vh;
+	padding-bottom: 12.5vh;
 	background-color: #101010;
 }
 
@@ -2671,8 +2679,9 @@ textarea.w-select {
 }
 
 .section-5 {
+	padding-top: 12.5vh;
 	padding-right: 0px;
-	padding-bottom: 25vh;
+	padding-bottom: 12.5vh;
 	background-color: #101010;
 }
 
@@ -2783,6 +2792,56 @@ textarea.w-select {
 	margin-top: 3vh;
 }
 
+.mobile-menu {
+	display: none;
+}
+
+.all {
+	overflow: hidden;
+}
+
+.transition {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	z-index: 200;
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: #dbdbdb;
+}
+
+.transition.black {
+	z-index: 250;
+	background-color: #101010;
+}
+
+.cursor-wrapper {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	z-index: 200;
+	display: none;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.img-container {
+	width: 20vw;
+	height: 20vh;
+	background-color: #1b1b1b;
+}
+
 @media screen and (max-width: 991px) {
 	.fixed-links.w--current {
 		display: none;
@@ -2805,8 +2864,17 @@ textarea.w-select {
 		width: 100%;
 	}
 
+	.menu-bar {
+		margin-right: 3.5vw;
+	}
+
+	.menu-link {
+		white-space: nowrap;
+	}
+
 	.name-big.others {
 		width: 96%;
+		padding-bottom: 5vh;
 	}
 
 	.scroll-down {
@@ -2817,12 +2885,17 @@ textarea.w-select {
 
 	.section-2 {
 		height: auto;
-		padding-bottom: 15vh;
+		padding-top: 10vh;
+		padding-bottom: 5vh;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
+	}
+
+	.section-2.section-cv {
+		padding-bottom: 15vh;
 	}
 
 	.image {
@@ -2851,7 +2924,8 @@ textarea.w-select {
 	}
 
 	.section-3 {
-		padding-bottom: 15vh;
+		padding-top: 10vh;
+		padding-bottom: 5vh;
 	}
 
 	.div-block-4 {
@@ -2860,6 +2934,10 @@ textarea.w-select {
 
 	.columns._2020 {
 		width: 80vw;
+	}
+
+	.columns._2020.ex {
+		width: 78vw;
 	}
 
 	.columns._2019 {
@@ -2874,8 +2952,13 @@ textarea.w-select {
 		font-size: 6vw;
 	}
 
+	.space12 {
+		height: 8vh;
+	}
+
 	.section-4 {
-		padding-bottom: 15vh;
+		padding-top: 10vh;
+		padding-bottom: 5vh;
 	}
 
 	.div-block-6 {
@@ -2902,7 +2985,8 @@ textarea.w-select {
 	}
 
 	.section-5 {
-		padding-bottom: 15vh;
+		padding-top: 10vh;
+		padding-bottom: 5vh;
 	}
 
 	.div-block-7 {
@@ -2962,8 +3046,39 @@ textarea.w-select {
 		width: 90vw;
 	}
 
+	.text-block.menu.about {
+		text-align: right;
+	}
+
+	.text-block.menu.selected-works {
+		text-align: right;
+	}
+
+	.text-block.menu.awards {
+		text-align: right;
+	}
+
+	.text-block.menu.testimonials {
+		text-align: right;
+	}
+
+	.text-block.menu.resume {
+		text-align: right;
+	}
+
+	.text-block.menu.contact {
+		text-align: right;
+	}
+
 	.menu-bar {
+		z-index: 100;
 		display: none;
+		margin-top: 10vh;
+		margin-right: 5vw;
+		-webkit-box-align: end;
+		-webkit-align-items: flex-end;
+		-ms-flex-align: end;
+		align-items: flex-end;
 	}
 
 	.name-big.others {
@@ -2985,9 +3100,10 @@ textarea.w-select {
 
 	.scroll-down {
 		top: 55%;
-		right: 10%;
-		width: 25vw;
-		height: 13vh;
+		right: 5%;
+		z-index: 50;
+		width: 33vw;
+		height: 16vh;
 	}
 
 	.image {
@@ -3017,6 +3133,14 @@ textarea.w-select {
 		display: block;
 		margin-right: 5vw;
 		margin-left: 0vw;
+	}
+
+	.link.menu.diff.close-menu {
+		display: none;
+	}
+
+	.link.diff {
+		z-index: 100;
 	}
 
 	.div-block-4 {
@@ -3095,6 +3219,10 @@ textarea.w-select {
 		height: 4vh;
 	}
 
+	.space6.testimonials {
+		height: 5vh;
+	}
+
 	.div-block-7 {
 		margin-left: 5vw;
 	}
@@ -3119,6 +3247,31 @@ textarea.w-select {
 	.cs-desc {
 		width: 90vw;
 		margin-top: 2vh;
+	}
+
+	.mobile-menu {
+		position: fixed;
+		z-index: 100;
+		display: none;
+		width: 100vw;
+		height: 0vh;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		background-color: #101010;
+	}
+
+	.all {
+		overflow: hidden;
+		opacity: 1;
+		-webkit-transition: opacity 200ms ease;
+		transition: opacity 200ms ease;
+	}
+
+	.menu-close-outside-click {
+		height: 65vh;
+		margin-top: 35vh;
+		padding-right: 0px;
+		padding-bottom: 0px;
 	}
 }
 
