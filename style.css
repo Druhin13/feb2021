@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 03 2021 12:47:32 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Mar 03 2021 13:13:59 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2364,6 +2364,10 @@ textarea.w-select {
 	white-space: normal;
 }
 
+.text-block.menu.expand {
+	cursor: pointer;
+}
+
 .menu-bar {
 	position: fixed;
 	left: auto;
@@ -2788,6 +2792,7 @@ textarea.w-select {
 }
 
 .cs-desc {
+	display: none;
 	width: 30vw;
 	margin-top: 3vh;
 }
