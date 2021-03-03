@@ -5,6 +5,25 @@
 	.diff {
 		mix-blend-mode: difference;
 	}
+
+
+	.track-horizontal {
+		position: absolute;
+		white-space: nowrap;
+		will-change: transform;
+		animation: marquee-horizontal 40s linear infinite;
+		/* manipulate the speed of the marquee by changing "40s" line above*/
+	}
+
+	@keyframes marquee-horizontal {
+		from {
+			transform: translateX(0);
+		}
+
+		to {
+			transform: translateX(-50%);
+		}
+	}
 </style>
 
 

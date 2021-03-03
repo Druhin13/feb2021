@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 03 2021 13:13:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Mar 03 2021 14:59:46 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2574,9 +2574,11 @@ textarea.w-select {
 }
 
 .h2.footer-text-loop {
-	overflow: hidden;
-	width: 100vw;
-	margin-bottom: 8vh;
+	margin-right: 5vw;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
 	text-align: left;
 	white-space: nowrap;
 }
@@ -2845,6 +2847,40 @@ textarea.w-select {
 	width: 20vw;
 	height: 20vh;
 	background-color: #1b1b1b;
+}
+
+.marquee-horizontal {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 8vh;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.track-horizontal {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 @media screen and (max-width: 991px) {
