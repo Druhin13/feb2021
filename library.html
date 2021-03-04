@@ -1,11 +1,13 @@
-<link href="locomotive-scroll.css" rel="stylesheet" type="text/css" />
+<!--<link href="locomotive-scroll.css" rel="stylesheet" type="text/css" />-->
 
 
 <style>
 	/*	adding smooth scroll*/
+	/*
 	html {
 		scroll-behavior: smooth;
 	}
+*/
 
 
 	/*	adding blend mode to menu links*/
@@ -47,31 +49,45 @@
 	var style = document.createElement("style");
 	style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
 	document.head.appendChild(style);
-</script>
 
-<!--
-<script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
 
-<script charset="utf-8">
-	var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
-	if (!isMobile) {
-		luxy.init({
-			wrapper: '#luxy',
-			wrapperSpeed: 0.065,
 
+	//smooth scrolling links
+
+
+	// Select all links with hashes
+	$('a[href*="#"]')
+		// Remove links that don't actually link to anything
+		.not('[href="#"]')
+		.not('[href="#0"]')
+		.click(function(event) {
+			// On-page links
+			if (
+				location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+				location.hostname == this.hostname
+			) {
+				// Figure out element to scroll to
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				// Does a scroll target exist?
+				if (target.length) {
+					// Only prevent default if animation is actually gonna happen
+					event.preventDefault();
+					$('html, body').animate({
+						scrollTop: target.offset().top
+					}, 1000, function() {
+						// Callback after animation
+						// Must change focus!
+						var $target = $(target);
+						$target.focus();
+						if ($target.is(":focus")) { // Checking if the target was focused
+							return false;
+						} else {
+							$target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+							$target.focus(); // Set focus again
+						};
+					});
+				}
+			}
 		});
-	}
-</script>
--->
-
-
-<script src="locomotive-scroll.min.js"></script>
-
-
-<script>
-	const scroll = new LocomotiveScroll({
-		el: document.querySelector('[data-scroll-container]'),
-		smooth: true,
-		multiplier: 0.5
-	});
 </script>
