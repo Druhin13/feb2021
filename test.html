@@ -9,7 +9,7 @@
 	<meta content="Druhin Tarafder - UX Designer | Portfolio" property="twitter:title" />
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<!--	<meta content="Webflow" name="generator" />-->
-	<link href="https://uploads-ssl.webflow.com/603baa99d556fc6b798e0570/css/ffolio.webflow.8622f5cef.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
 	<style>
 		/*	adding blend mode to menu links*/
 		.diff {
@@ -23,12 +23,6 @@
 		/*	adding blend mode to case study video hovers*/
 		.overlay {
 			mix-blend-mode: color;
-		}
-
-		:focus {
-			outline: 0;
-			outline-color: transparent;
-			outline-style: none;
 		}
 
 		/*	adding infinite scrolling text effect*/
@@ -165,7 +159,7 @@
 		</a></div><a href="#home" class="fixed-links menu-mobile w-inline-block">
 		<div class="text-block">MENU</div>
 	</a>
-	<div id="butter" class="all">
+	<div id="luxy" class="all">
 		<div id="home" class="section">
 			<div class="div-block desktop">
 				<div id="scroll-in-1" class="name-big desktop">
@@ -551,13 +545,18 @@
 			});
 	</script>
 
-	<script>
-		butter.init({
-			wrapperId: 'butter',
-			cancelOnTouch: true,
-			wrapperDamper: 0.06
-		});
+	<script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
+	<script charset="utf-8">
+		var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
+		if (!isMobile) {
+			luxy.init({
+				wrapper: '#luxy',
+				wrapperSpeed: 0.065,
+
+			});
+		}
 	</script>
+
 	<script src="text-anime.js"></script>
 	<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
