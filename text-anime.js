@@ -135,6 +135,49 @@ fadeUp4
 	});
 
 
+var fadeUp5 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp5
+	.add({
+		targets: '.fade-up5 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+
+
+//fade in animation
+
+var fadeIn = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeIn
+	.add({
+		targets: '.fade-in .tricksword',
+		translateY: [-100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+
+
+
 
 //.add({
 //		targets: '.fade-up .letter',
@@ -208,7 +251,7 @@ fadeUp4
 // Wait before playing animation
 setTimeout(() => {
 	// Put the play below this line
-
+	fadeIn.play();
 }, 800);
 
 
@@ -222,6 +265,9 @@ $(".your-button-class").click(function () {
 $(".your-button-class").mouseenter(function () {
 	// Put the play below this line
 });
+
+
+
 
 // Play animation when scrolled into view
 $('#scroll-in-1').on('inview', function (event, isInView) {
@@ -260,6 +306,15 @@ $('#scroll-in-coder').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp4.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+
+$('#scroll-in-about1').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp5.play();
 		//		fadeUp.restart();
 	} else {}
 });
