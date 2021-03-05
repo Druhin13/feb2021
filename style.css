@@ -1,4 +1,4 @@
-/* Generated on: Fri Mar 05 2021 02:49:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 05 2021 03:09:33 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2436,13 +2436,16 @@ textarea.w-select {
 }
 
 .scroll-down {
-	position: absolute;
+	position: static;
 	left: auto;
 	top: 40%;
 	right: 20%;
 	bottom: 0%;
-	width: 12vw;
-	height: 18vh;
+	z-index: 250;
+	width: 15vw;
+	height: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 45vh;
 	padding-right: 0px;
 	background-image: url("https://uploads-ssl.webflow.com/603baa99d556fc6b798e0570/603c9ab0e4f27368184bb267_scrolldown.svg");
 	background-position: 50% 50%;
@@ -3257,8 +3260,9 @@ textarea.w-select {
 
 	.scroll-down {
 		top: 50%;
-		width: 18vw;
-		height: 18vh;
+		width: 29vw;
+		height: 22vw;
+		margin-bottom: 40vh;
 	}
 
 	.section-2 {
@@ -3429,6 +3433,17 @@ textarea.w-select {
 	}
 
 	.cursor-wrapper {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.img-container {
+		display: none;
+	}
+
+	.cursor {
 		display: none;
 	}
 }
@@ -3442,7 +3457,10 @@ textarea.w-select {
 	}
 
 	.div-block.desktop {
-		display: none;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
 	}
 
 	.fixed-links.w--current {
@@ -3512,6 +3530,10 @@ textarea.w-select {
 		padding-bottom: 12.5vh;
 	}
 
+	.name-big.desktop {
+		display: none;
+	}
+
 	.h1 {
 		font-weight: 700;
 	}
@@ -3526,11 +3548,15 @@ textarea.w-select {
 	}
 
 	.scroll-down {
+		position: absolute;
 		top: 55%;
 		right: 5%;
 		z-index: 50;
-		width: 33vw;
-		height: 16vh;
+		display: block;
+		width: 35vw;
+		height: 35vw;
+		margin-right: 0vw;
+		margin-bottom: 0vh;
 	}
 
 	.image {
