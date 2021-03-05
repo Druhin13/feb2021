@@ -1,4 +1,4 @@
-/* Generated on: Fri Mar 05 2021 05:49:33 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 05 2021 06:58:41 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2464,6 +2464,10 @@ textarea.w-select {
 	background-repeat: no-repeat;
 }
 
+.scroll-down.mobile {
+	display: none;
+}
+
 .section-2 {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -3538,7 +3542,7 @@ textarea.w-select {
 		margin-right: 5vw;
 		margin-left: 5vw;
 		padding-top: 20vh;
-		padding-bottom: 12.5vh;
+		padding-bottom: 0vh;
 	}
 
 	.name-big.desktop {
@@ -3559,15 +3563,23 @@ textarea.w-select {
 	}
 
 	.scroll-down {
-		position: absolute;
-		top: 55%;
-		right: 5%;
 		z-index: 50;
-		display: block;
+		display: none;
 		width: 35vw;
 		height: 35vw;
 		margin-right: 0vw;
 		margin-bottom: 0vh;
+	}
+
+	.scroll-down.mobile {
+		display: block;
+		margin-top: 7.5vh;
+		margin-bottom: 0vh;
+		margin-left: 50vw;
+	}
+
+	.section-2 {
+		padding-top: 8vh;
 	}
 
 	.image {
@@ -3604,6 +3616,10 @@ textarea.w-select {
 	}
 
 	.link.diff {
+		z-index: 100;
+	}
+
+	.link.diff.w--current {
 		z-index: 100;
 	}
 
