@@ -1,4 +1,4 @@
-/* Generated on: Fri Mar 05 2021 06:58:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 05 2021 15:38:24 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2453,6 +2453,7 @@ textarea.w-select {
 	right: 20%;
 	bottom: 0%;
 	z-index: 250;
+	overflow: hidden;
 	width: 15vw;
 	height: 15vw;
 	margin-right: 15vw;
@@ -2864,7 +2865,7 @@ textarea.w-select {
 	display: -ms-flexbox;
 	display: flex;
 	width: 100vw;
-	height: 75vh;
+	height: 76vh;
 	margin-bottom: 2vh;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -3238,6 +3239,10 @@ textarea.w-select {
 	align-items: center;
 }
 
+.lottie-animation {
+	height: 100vh;
+}
+
 @media screen and (max-width: 991px) {
 	.fixed-links.w--current {
 		display: none;
@@ -3289,6 +3294,10 @@ textarea.w-select {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
 	}
 
 	.section-2.section-cv {
@@ -3296,6 +3305,7 @@ textarea.w-select {
 	}
 
 	.image {
+		width: 100vw;
 		margin-left: 0vw;
 		-o-object-fit: cover;
 		object-fit: cover;
@@ -3448,10 +3458,7 @@ textarea.w-select {
 	}
 
 	.cursor-wrapper {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
+		display: none;
 	}
 
 	.img-container {
