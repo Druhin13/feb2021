@@ -175,6 +175,23 @@ fadeIn
 	});
 
 
+var fadeIn2 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeIn2
+	.add({
+		targets: '.fade-in2',
+		translateY: [-100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
 
 
 
@@ -252,6 +269,7 @@ fadeIn
 setTimeout(() => {
 	// Put the play below this line
 	fadeIn.play();
+	fadeIn2.play();
 }, 800);
 
 
