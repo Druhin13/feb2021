@@ -76,11 +76,64 @@ fadeUp
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [10,0],
+		rotateZ: [10, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 300 + 30 * i
 	});
+
+var fadeUp2 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp2
+	.add({
+		targets: '.fade-up2 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp3 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp3
+	.add({
+		targets: '.fade-up3 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var fadeUp4 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp4
+	.add({
+		targets: '.fade-up4 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
 
 
 //.add({
@@ -175,7 +228,7 @@ $('#scroll-in-1').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp.play();
-//		fadeUp.restart();
+		//		fadeUp.restart();
 	} else {}
 });
 
@@ -183,30 +236,30 @@ $('#scroll-in-2').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp.play();
-//		fadeUp.restart();
+		//		fadeUp.restart();
 	} else {}
 });
 
 $('#scroll-in-ux').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		fadeUp.play();
-//		fadeUp.restart();
+		fadeUp2.play();
+		//		fadeUp.restart();
 	} else {}
 });
 
 $('#scroll-in-front').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		fadeUp.play();
-//		fadeUp.restart();
+		fadeUp3.play();
+		//		fadeUp.restart();
 	} else {}
 });
 
 $('#scroll-in-coder').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		fadeUp.play();
-//		fadeUp.restart();
+		fadeUp4.play();
+		//		fadeUp.restart();
 	} else {}
 });
