@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 04 2021 18:34:52 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 05 2021 02:49:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2339,6 +2339,7 @@ textarea.w-select {
 	color: #dbdbdb;
 	font-size: 1vw;
 	line-height: 1.05;
+	cursor: none;
 }
 
 .text-block {
@@ -3161,6 +3162,64 @@ textarea.w-select {
 	align-items: center;
 }
 
+.point {
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 10px;
+	height: 10px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #dbdbdb;
+}
+
+.circle {
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 5vw;
+	height: 5vw;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dbdbdb;
+	border-radius: 50%;
+}
+
+.cursor {
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
 @media screen and (max-width: 991px) {
 	.fixed-links.w--current {
 		display: none;
@@ -3703,22 +3762,6 @@ textarea.w-select {
 	.marquee-horizontal.cs {
 		display: none;
 	}
-}
-
-@font-face {
-	font-family: 'Heln';
-	src: url('https://uploads-ssl.webflow.com/603baa99d556fc6b798e0570/603bad7b763932928ab68c97_HELN.TTF') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Pertili';
-	src: url('https://uploads-ssl.webflow.com/603baa99d556fc6b798e0570/603bad7b875cc796082919d5_PERTILI.TTF') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
 }
 
 @font-face {
