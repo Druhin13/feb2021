@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 06 2021 06:27:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 06 2021 11:01:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2366,7 +2366,7 @@ textarea.w-select {
 }
 
 .text-block.menu.expand {
-	cursor: pointer;
+	cursor: none;
 }
 
 .menu-bar {
@@ -2391,10 +2391,12 @@ textarea.w-select {
 	-webkit-align-items: flex-start;
 	-ms-flex-align: start;
 	align-items: flex-start;
+	cursor: none;
 }
 
 .menu-link {
 	margin-bottom: 1vh;
+	cursor: none;
 }
 
 .name-big {
@@ -2539,6 +2541,7 @@ textarea.w-select {
 	margin-left: 0vw;
 	color: #101010;
 	text-decoration: none;
+	cursor: none;
 }
 
 .link.footer-links.copyright {
@@ -2554,6 +2557,10 @@ textarea.w-select {
 .link.diff.w--current {
 	z-index: 50;
 	letter-spacing: 0vw;
+}
+
+.link.diff.fade-in.tricks.w--current {
+	cursor: none;
 }
 
 .section-3 {
@@ -3007,12 +3014,18 @@ textarea.w-select {
 	align-items: center;
 	color: #dbdbdb;
 	text-decoration: none;
+	cursor: none;
 }
 
 .marquee-horizontal.cs {
 	display: none;
 	margin-bottom: 0vh;
 	color: #dbdbdb;
+	cursor: none;
+}
+
+.marquee-horizontal.cs.stamurai {
+	cursor: none;
 }
 
 .track-horizontal {
