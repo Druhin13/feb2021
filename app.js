@@ -20496,6 +20496,58 @@ Webflow.require('ix2').init({
 						},
 						"value": "none"
 					}
+				}, {
+					"id": "a-14-n-50",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-14-n-51",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-14-n-52",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
 				}]
 			}],
 			"useFirstGroupAsInitialState": false,
@@ -21234,6 +21286,76 @@ Webflow.require('ix2').init({
 						"rValue": 16,
 						"bValue": 16,
 						"gValue": 16,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-20-n-46",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "5b554e71",
+						"rValue": 219,
+						"bValue": 219,
+						"gValue": 219,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-20-n-47",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "5b554e71",
+						"rValue": 219,
+						"bValue": 219,
+						"gValue": 219,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-20-n-48",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "5b554e71",
+						"rValue": 219,
+						"bValue": 219,
+						"gValue": 219,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-20-n-49",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "5b554e71",
+						"rValue": 219,
+						"bValue": 219,
+						"gValue": 219,
 						"aValue": 1
 					}
 				}]
@@ -22031,6 +22153,58 @@ Webflow.require('ix2').init({
 						},
 						"value": "none"
 					}
+				}, {
+					"id": "a-15-n-50",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 200,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-15-n-51",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 200,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-15-n-52",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 200,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
 				}]
 			}],
 			"useFirstGroupAsInitialState": false,
@@ -22824,6 +22998,58 @@ Webflow.require('ix2').init({
 						},
 						"value": "none"
 					}
+				}, {
+					"id": "a-16-n-50",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-16-n-51",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-16-n-52",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
 				}]
 			}],
 			"useFirstGroupAsInitialState": false,
@@ -23615,6 +23841,58 @@ Webflow.require('ix2').init({
 						},
 						"value": "none"
 					}
+				}, {
+					"id": "a-17-n-50",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-17-n-51",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-17-n-52",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
 				}]
 			}],
 			"useFirstGroupAsInitialState": false,
@@ -24404,6 +24682,58 @@ Webflow.require('ix2').init({
 						},
 						"value": "none"
 					}
+				}, {
+					"id": "a-18-n-50",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-18-n-51",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-18-n-52",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
 				}]
 			}],
 			"useFirstGroupAsInitialState": false,
@@ -25190,6 +25520,58 @@ Webflow.require('ix2').init({
 							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
 						},
 						"value": "none"
+					}
+				}, {
+					"id": "a-19-n-50",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "CHILDREN",
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-19-n-51",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2.cs-year",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80", "e526c854-608b-dd47-d209-0c940111acc1"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-19-n-52",
+					"actionTypeId": "STYLE_TEXT_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".h2",
+							"selectorGuids": ["706e0dd2-5488-8f60-7934-7554b2154b80"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
 					}
 				}]
 			}],
