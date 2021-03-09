@@ -16912,11 +16912,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|bc27189c-1f85-0ffd-58d4-eac9be17b1d1",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|bc27189c-1f85-0ffd-58d4-eac9be17b1d1"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|bc27189c-1f85-0ffd-58d4-eac9be17b1d1",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -16948,11 +16952,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|bc27189c-1f85-0ffd-58d4-eac9be17b1d1",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|bc27189c-1f85-0ffd-58d4-eac9be17b1d1"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|bc27189c-1f85-0ffd-58d4-eac9be17b1d1",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -16984,11 +16992,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|daef1468-cd1d-3f5d-bc44-80ae303a7fd7",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|daef1468-cd1d-3f5d-bc44-80ae303a7fd7"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|daef1468-cd1d-3f5d-bc44-80ae303a7fd7",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17020,11 +17032,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|daef1468-cd1d-3f5d-bc44-80ae303a7fd7",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|daef1468-cd1d-3f5d-bc44-80ae303a7fd7"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|daef1468-cd1d-3f5d-bc44-80ae303a7fd7",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17056,11 +17072,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|84bcb9c8-5a44-51fa-6f36-f6bf352a664a",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|84bcb9c8-5a44-51fa-6f36-f6bf352a664a"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|84bcb9c8-5a44-51fa-6f36-f6bf352a664a",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17092,11 +17112,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|84bcb9c8-5a44-51fa-6f36-f6bf352a664a",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|84bcb9c8-5a44-51fa-6f36-f6bf352a664a"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|84bcb9c8-5a44-51fa-6f36-f6bf352a664a",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17128,11 +17152,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|10fdab59-a935-684c-404f-d93d3909d2e7",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|10fdab59-a935-684c-404f-d93d3909d2e7"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|10fdab59-a935-684c-404f-d93d3909d2e7",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17164,11 +17192,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|10fdab59-a935-684c-404f-d93d3909d2e7",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|10fdab59-a935-684c-404f-d93d3909d2e7"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|10fdab59-a935-684c-404f-d93d3909d2e7",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17200,11 +17232,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|e557b44a-0b32-f091-c5eb-d123f5614a65",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|e557b44a-0b32-f091-c5eb-d123f5614a65"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|e557b44a-0b32-f091-c5eb-d123f5614a65",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17236,11 +17272,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|e557b44a-0b32-f091-c5eb-d123f5614a65",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|e557b44a-0b32-f091-c5eb-d123f5614a65"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|e557b44a-0b32-f091-c5eb-d123f5614a65",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17272,11 +17312,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|203ba130-cd54-0057-5a0d-edbf85621c64",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|203ba130-cd54-0057-5a0d-edbf85621c64"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|203ba130-cd54-0057-5a0d-edbf85621c64",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17308,11 +17352,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|203ba130-cd54-0057-5a0d-edbf85621c64",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|203ba130-cd54-0057-5a0d-edbf85621c64"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|203ba130-cd54-0057-5a0d-edbf85621c64",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17344,11 +17392,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|e47b1354-460d-fdee-0267-983d196d6b87",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|e47b1354-460d-fdee-0267-983d196d6b87"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|e47b1354-460d-fdee-0267-983d196d6b87",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17380,11 +17432,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|e47b1354-460d-fdee-0267-983d196d6b87",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|e47b1354-460d-fdee-0267-983d196d6b87"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|e47b1354-460d-fdee-0267-983d196d6b87",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17416,11 +17472,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7e4c864d-78b5-ca90-180f-1ec49a65684e",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7e4c864d-78b5-ca90-180f-1ec49a65684e"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7e4c864d-78b5-ca90-180f-1ec49a65684e",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17452,11 +17512,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7e4c864d-78b5-ca90-180f-1ec49a65684e",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7e4c864d-78b5-ca90-180f-1ec49a65684e"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7e4c864d-78b5-ca90-180f-1ec49a65684e",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17488,11 +17552,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17524,11 +17592,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17560,11 +17632,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17596,11 +17672,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17632,11 +17712,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17668,11 +17752,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17704,11 +17792,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17740,11 +17832,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17776,11 +17872,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17812,11 +17912,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17848,11 +17952,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17884,11 +17992,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17920,11 +18032,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|4909458e-ad22-c57f-371a-4bdfb19c0b59",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|4909458e-ad22-c57f-371a-4bdfb19c0b59"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|4909458e-ad22-c57f-371a-4bdfb19c0b59",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17956,11 +18072,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|4909458e-ad22-c57f-371a-4bdfb19c0b59",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|4909458e-ad22-c57f-371a-4bdfb19c0b59"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|4909458e-ad22-c57f-371a-4bdfb19c0b59",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -17992,11 +18112,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|fa697c9a-8f55-6538-39fa-3433588027f0",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|fa697c9a-8f55-6538-39fa-3433588027f0"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|fa697c9a-8f55-6538-39fa-3433588027f0",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18028,11 +18152,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|fa697c9a-8f55-6538-39fa-3433588027f0",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|fa697c9a-8f55-6538-39fa-3433588027f0"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|fa697c9a-8f55-6538-39fa-3433588027f0",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18064,11 +18192,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|4aa95d2d-8882-a12d-0568-e5302e267369",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|4aa95d2d-8882-a12d-0568-e5302e267369"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|4aa95d2d-8882-a12d-0568-e5302e267369",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18100,11 +18232,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|4aa95d2d-8882-a12d-0568-e5302e267369",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|4aa95d2d-8882-a12d-0568-e5302e267369"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|4aa95d2d-8882-a12d-0568-e5302e267369",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18136,11 +18272,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18172,11 +18312,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18208,11 +18352,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|e622e582-1a00-03ce-5678-4b46ea1d6262",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|e622e582-1a00-03ce-5678-4b46ea1d6262"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|e622e582-1a00-03ce-5678-4b46ea1d6262",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18244,11 +18392,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|e622e582-1a00-03ce-5678-4b46ea1d6262",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|e622e582-1a00-03ce-5678-4b46ea1d6262"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|e622e582-1a00-03ce-5678-4b46ea1d6262",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18280,11 +18432,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18316,11 +18472,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main", "medium", "small", "tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -18331,6 +18491,86 @@ Webflow.require('ix2').init({
 				"effectIn": null
 			},
 			"createdOn": 1615048536302
+		},
+		"e-110": {
+			"id": "e-110",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_OVER",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-34",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-111"
+				}
+			},
+			"mediaQueries": ["main", "medium", "small", "tiny"],
+			"target": {
+				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			},
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1615051478008
+		},
+		"e-111": {
+			"id": "e-111",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_OUT",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-35",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-110"
+				}
+			},
+			"mediaQueries": ["main", "medium", "small", "tiny"],
+			"target": {
+				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			},
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1615051478040
 		}
 	},
 	"actionLists": {
@@ -25600,7 +25840,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "outExpo",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".point",
 							"selectorGuids": ["7fca641a-b208-f9e7-0716-1f974fe7a311"]
@@ -25608,7 +25847,8 @@ Webflow.require('ix2').init({
 						"widthValue": 10,
 						"heightValue": 10,
 						"widthUnit": "px",
-						"heightUnit": "px"
+						"heightUnit": "px",
+						"locked": false
 					}
 				}]
 			}, {
@@ -25633,11 +25873,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".circle",
 							"selectorGuids": ["bb884720-d346-ba4c-a0b0-08913819f851"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-34-n-2",
@@ -25646,7 +25886,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "outExpo",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".point",
 							"selectorGuids": ["7fca641a-b208-f9e7-0716-1f974fe7a311"]
@@ -25654,12 +25893,13 @@ Webflow.require('ix2').init({
 						"widthValue": 60,
 						"heightValue": 60,
 						"widthUnit": "px",
-						"heightUnit": "px"
+						"heightUnit": "px",
+						"locked": false
 					}
 				}]
 			}],
-			"createdOn": 1615041095656,
-			"useFirstGroupAsInitialState": true
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615041095656
 		},
 		"a-35": {
 			"id": "a-35",
@@ -25672,7 +25912,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "outExpo",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".point",
 							"selectorGuids": ["7fca641a-b208-f9e7-0716-1f974fe7a311"]
@@ -25680,7 +25919,8 @@ Webflow.require('ix2').init({
 						"widthValue": 10,
 						"heightValue": 10,
 						"widthUnit": "px",
-						"heightUnit": "px"
+						"heightUnit": "px",
+						"locked": false
 					}
 				}, {
 					"id": "a-35-n-3",
@@ -25689,11 +25929,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "flex",
 						"target": {
 							"selector": ".circle",
 							"selectorGuids": ["bb884720-d346-ba4c-a0b0-08913819f851"]
-						}
+						},
+						"value": "flex"
 					}
 				}, {
 					"id": "a-35-n-2",
@@ -25711,8 +25951,8 @@ Webflow.require('ix2').init({
 					}
 				}]
 			}],
-			"createdOn": 1615041095656,
-			"useFirstGroupAsInitialState": false
+			"useFirstGroupAsInitialState": false,
+			"createdOn": 1615041095656
 		},
 		"a-36": {
 			"id": "a-36",
@@ -25742,11 +25982,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"useEventTarget": true,
 							"id": "603baa99d556fc02e18e0571|70239533-3f90-c384-7bad-f12945f3a4fe"
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-36-n-5",
@@ -25769,12 +26009,12 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "flex",
 						"target": {
 							"useEventTarget": "SIBLINGS",
 							"selector": ".scroll-down-hover",
 							"selectorGuids": ["aa377130-2c05-9ec1-8991-7e32782bdb99"]
-						}
+						},
+						"value": "flex"
 					}
 				}, {
 					"id": "a-36-n-4",
@@ -25793,8 +26033,8 @@ Webflow.require('ix2').init({
 					}
 				}]
 			}],
-			"createdOn": 1615048405059,
-			"useFirstGroupAsInitialState": true
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615048405059
 		},
 		"a-37": {
 			"id": "a-37",
@@ -25807,7 +26047,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "outExpo",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"useEventTarget": "SIBLINGS",
 							"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91"
@@ -25815,7 +26054,8 @@ Webflow.require('ix2').init({
 						"widthValue": 0,
 						"heightValue": 0,
 						"widthUnit": "vw",
-						"heightUnit": "vw"
+						"heightUnit": "vw",
+						"locked": false
 					}
 				}, {
 					"id": "a-37-n-2",
@@ -25824,10 +26064,10 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"id": "603baa99d556fc02e18e0571|49811e8d-6f34-7b7d-7fbd-5bf339294d91"
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-37-n-5",
@@ -25836,12 +26076,12 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "flex",
 						"target": {
 							"useEventTarget": "SIBLINGS",
 							"selector": ".scroll-down",
 							"selectorGuids": ["e3a5fb4a-10d4-1902-6007-40b82f589ec0"]
-						}
+						},
+						"value": "flex"
 					}
 				}, {
 					"id": "a-37-n-6",
@@ -25860,8 +26100,8 @@ Webflow.require('ix2').init({
 					}
 				}]
 			}],
-			"createdOn": 1615048405059,
-			"useFirstGroupAsInitialState": false
+			"useFirstGroupAsInitialState": false,
+			"createdOn": 1615048405059
 		},
 		"flyInBottom": {
 			"id": "flyInBottom",
