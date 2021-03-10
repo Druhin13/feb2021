@@ -57,7 +57,7 @@
 		.grain {
 			pointer-events: none;
 			position: fixed;
-			opacity: 15%;
+			opacity: 20%;
 			background: radial-gradient(ellipse at center, #dbdbdb 0%, #000 100%);
 		}
 
@@ -640,8 +640,8 @@
 			mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
 			mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
 
-//			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #dbdbdb, #000000)');
-			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #dbdbdb, #101010)');
+			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #3d3d3d, #000000)');
+			//			$('.grain').css('background', 'radial-gradient(circle closest-side at, #dbdbdb, #101010)');
 		});
 	</script>
 	<script src="text-anime.js"></script>
