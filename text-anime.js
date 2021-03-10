@@ -270,6 +270,8 @@ setTimeout(() => {
 	// Put the play below this line
 	fadeIn.play();
 	fadeIn2.play();
+	fadeUp.play();
+	fadeUp2.play();
 }, 800);
 
 
@@ -287,32 +289,24 @@ $(".your-button-class").mouseenter(function () {
 
 
 
-// Play animation when scrolled into view
-$('#scroll-in-1').on('inview', function (event, isInView) {
-	if (isInView) {
-		// Put the play below this line
-		fadeUp.play();
-		//		fadeUp.restart();
-	} else {}
-});
+//// Play animation when scrolled into view
+//$('#scroll-in-1').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//
+//		//		fadeUp.restart();
+//	} else {}
+//});
 
-$('#scroll-in-2').on('inview', function (event, isInView) {
-	if (isInView) {
-		// Put the play below this line
-		fadeUp.play();
-		//		fadeUp.restart();
-	} else {}
-});
+//$('#scroll-in-2').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		fadeUp.play();
+//		//		fadeUp.restart();
+//	} else {}
+//});
 
 $('#scroll-in-ux').on('inview', function (event, isInView) {
-	if (isInView) {
-		// Put the play below this line
-		fadeUp2.play();
-		//		fadeUp.restart();
-	} else {}
-});
-
-$('#scroll-in-front').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp3.play();
@@ -320,7 +314,7 @@ $('#scroll-in-front').on('inview', function (event, isInView) {
 	} else {}
 });
 
-$('#scroll-in-coder').on('inview', function (event, isInView) {
+$('#scroll-in-front').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp4.play();
@@ -328,11 +322,19 @@ $('#scroll-in-coder').on('inview', function (event, isInView) {
 	} else {}
 });
 
-
-$('#scroll-in-about1').on('inview', function (event, isInView) {
+$('#scroll-in-coder').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp5.play();
 		//		fadeUp.restart();
 	} else {}
 });
+
+
+//$('#scroll-in-about1').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		fadeUp5.play();
+//		//		fadeUp.restart();
+//	} else {}
+//});
