@@ -63,7 +63,7 @@
 
 		.grain::after {
 			content: "";
-			position: absolute;
+			position: fixed;
 			width: 200vw;
 			height: 200vh;
 			left: -50%;
@@ -629,6 +629,19 @@
 			wrapperId: 'butter',
 			cancelOnTouch: true,
 			wrapperDamper: 0.06
+		});
+	</script>
+
+	<script>
+		$(document).mousemove(function(event) {
+			windowWidth = $(window).width();
+			windowHeight = $(window).height();
+
+			mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
+			mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
+
+//			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #dbdbdb, #000000)');
+			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #dbdbdb, #101010)');
 		});
 	</script>
 	<script src="text-anime.js"></script>
