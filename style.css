@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 10 2021 07:27:35 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Mar 10 2021 14:54:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3538,6 +3538,19 @@ textarea.w-select {
 	height: 100%;
 	border-radius: 50%;
 	box-shadow: 0 -5px 100px 5px rgba(0, 0, 0, 0.25);
+}
+
+.grain {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	z-index: 195;
+	display: block;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
 }
 
 @media screen and (min-width: 1280px) {
