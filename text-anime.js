@@ -93,7 +93,7 @@ fadeUp2
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [10, 0],
+		rotateZ: [-10, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -128,7 +128,7 @@ fadeUp4
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [10, 0],
+		rotateZ: [-10, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -151,6 +151,9 @@ fadeUp5
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
 	});
+
+
+
 
 
 
@@ -268,10 +271,14 @@ fadeIn2
 // Wait before playing animation
 setTimeout(() => {
 	// Put the play below this line
-	fadeIn.play();
-	fadeIn2.play();
 	fadeUp.play();
 	fadeUp2.play();
+}, 200);
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeIn.play();
+	fadeIn2.play();
 }, 800);
 
 
