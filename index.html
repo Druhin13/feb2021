@@ -58,7 +58,7 @@
 			pointer-events: none;
 			position: fixed;
 			opacity: 20%;
-			background: radial-gradient(ellipse at center, #dbdbdb 0%, #000 100%);
+			background: radial-gradient(at 0% 100%, #8A8A8A, #000000ff);
 		}
 
 		.grain::after {
@@ -640,7 +640,7 @@
 			mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
 			mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
 
-			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #3d3d3d, #000000)');
+			$('.grain').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #8A8A8A, #000000ff)');
 			//			$('.grain').css('background', 'radial-gradient(circle closest-side at, #dbdbdb, #101010)');
 		});
 	</script>
