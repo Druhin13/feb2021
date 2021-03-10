@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 10 2021 02:46:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Mar 10 2021 02:52:52 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3743,7 +3743,7 @@ textarea.w-select {
 	}
 
 	.section {
-		padding-bottom: 8vh;
+		padding-bottom: 7vh;
 	}
 
 	.fixed-links.w--current {
@@ -3841,7 +3841,7 @@ textarea.w-select {
 
 	.scroll-down.mobile {
 		display: block;
-		margin-top: 7.5vh;
+		margin-top: 6vh;
 		margin-bottom: 0vh;
 		margin-left: 50vw;
 	}
