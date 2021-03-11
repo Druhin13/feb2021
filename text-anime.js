@@ -613,6 +613,7 @@ $('#scroll-in-druhin').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp.play();
+		fadeIn.play();
 		//				fadeUp.restart();
 	} else {}
 });
@@ -621,6 +622,7 @@ $('#scroll-in-tarafder').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp2.play();
+		fadeIn2.play();
 		//				fadeUp2.restart();
 	} else {}
 });
