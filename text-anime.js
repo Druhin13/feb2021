@@ -268,6 +268,60 @@ fadeUp11
 	});
 
 
+var fadeUp12 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp12
+	.add({
+		targets: '.fade-up12 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var fadeUp13 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp13
+	.add({
+		targets: '.fade-up13 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [-10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var fadeUp14 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp14
+	.add({
+		targets: '.fade-up14 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
 
 
 
@@ -506,6 +560,31 @@ $('#scroll-in-works0').on('inview', function (event, isInView) {
 	} else {}
 });
 
+
+
+$('#scroll-in-awards1').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp12.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-awards2').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp13.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-awards3').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp14.play();
+		//		fadeUp.restart();
+	} else {}
+});
 
 //$('#scroll-in-about1').on('inview', function (event, isInView) {
 //	if (isInView) {
