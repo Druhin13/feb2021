@@ -550,14 +550,14 @@ fadeIn2
 // Wait before playing animation
 setTimeout(() => {
 	// Put the play below this line
-	fadeUp.play();
-	fadeUp2.play();
+	//	fadeUp.play();
+	//	fadeUp2.play();
 }, 200);
 
 setTimeout(() => {
 	// Put the play below this line
-	fadeIn.play();
-	fadeIn2.play();
+	//	fadeIn.play();
+	//	fadeIn2.play();
 }, 800);
 
 
@@ -591,6 +591,42 @@ $(".your-button-class").mouseenter(function () {
 //		//		fadeUp.restart();
 //	} else {}
 //});
+
+
+
+
+$('#scroll-in-1').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp.play();
+		fadeUp2.play();
+		fadeIn.play();
+		fadeIn2.play();
+
+	} else {}
+});
+
+
+
+
+$('#scroll-in-druhin').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp.play();
+		//				fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-tarafder').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp2.play();
+		//				fadeUp2.restart();
+	} else {}
+});
+
+
+
 
 $('#scroll-in-ux').on('inview', function (event, isInView) {
 	if (isInView) {
