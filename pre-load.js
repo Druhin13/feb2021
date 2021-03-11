@@ -5,6 +5,6 @@ function counter() {
 		if (c == 99) {
 			clearInterval(count);
 		}
-	}, 120)
+	}, 60)
 }
-counter()
+counter();
