@@ -154,6 +154,123 @@ fadeUp5
 
 
 
+//about me 
+
+
+var fadeUp6 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp6
+	.add({
+		targets: '.fade-up6 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp7 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp7
+	.add({
+		targets: '.fade-up7 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [-10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp8 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp8
+	.add({
+		targets: '.fade-up8 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+
+
+
+//selected works 
+
+var fadeUp9 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp9
+	.add({
+		targets: '.fade-up9 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var fadeUp10 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp10
+	.add({
+		targets: '.fade-up10 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [-10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var fadeUp11 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp11
+	.add({
+		targets: '.fade-up11 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+
+
+
 
 
 
@@ -333,6 +450,58 @@ $('#scroll-in-coder').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp5.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+
+
+
+
+$('#scroll-in-about1').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp6.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-about2').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp7.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-about3').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp8.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-works1').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp9.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-works2').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp10.play();
+		//		fadeUp.restart();
+	} else {}
+});
+
+$('#scroll-in-works0').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		fadeUp11.play();
 		//		fadeUp.restart();
 	} else {}
 });
