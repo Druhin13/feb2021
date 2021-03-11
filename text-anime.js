@@ -41,28 +41,29 @@ for (var i = 0; i < tricksLetter.length; i++) {
 //	});
 //
 //
+
+
+
 //// Slide Up Animation
-//var slideUp = anime.timeline({
-//	loop: false,
-//	autoplay: false,
-//});
-//
-//slideUp
-//	.add({
-//		targets: '.slide-up .letter',
-//		translateY: ["1.1em", 0],
-//		opacity: [0, 1],
-//		translateZ: 0,
-//		duration: 750,
-//		delay: (el, i) => 50 * i
-//	}).add({
-//		targets: '.slide-up',
-//		opacity: 0,
-//		duration: 1000,
-//		easing: "easeOutExpo",
-//		delay: 1000
-//	});
-//
+var slideUp = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+slideUp
+	.add({
+		targets: '.slide-up',
+		translateY: ["5em", 0],
+		opacity: [0, 1],
+		translateZ: 0,
+		duration: 1000,
+		delay: (el, i) => 50 * i
+	});
+
+
+
+
+
 
 // Fade Up Animation
 var fadeUp = anime.timeline({
@@ -558,6 +559,7 @@ setTimeout(() => {
 	// Put the play below this line
 	//	fadeIn.play();
 	//	fadeIn2.play();
+	slideUp.play();
 }, 800);
 
 
