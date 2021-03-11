@@ -596,7 +596,7 @@ $('#scroll-in-ux').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp3.play();
-		//		fadeUp.restart();
+				fadeUp3.restart();
 	} else {}
 });
 
@@ -604,7 +604,7 @@ $('#scroll-in-front').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp4.play();
-		//		fadeUp.restart();
+				fadeUp4.restart();
 	} else {}
 });
 
@@ -612,7 +612,7 @@ $('#scroll-in-coder').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp5.play();
-		//		fadeUp.restart();
+				fadeUp5.restart();
 	} else {}
 });
 
@@ -624,7 +624,7 @@ $('#scroll-in-about1').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp6.play();
-		//		fadeUp.restart();
+				fadeUp6.restart();
 	} else {}
 });
 
@@ -632,7 +632,7 @@ $('#scroll-in-about2').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp7.play();
-		//		fadeUp.restart();
+				fadeUp7.restart();
 	} else {}
 });
 
@@ -640,7 +640,7 @@ $('#scroll-in-about3').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp8.play();
-		//		fadeUp.restart();
+				fadeUp8.restart();
 	} else {}
 });
 
@@ -648,7 +648,7 @@ $('#scroll-in-works1').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp9.play();
-		//		fadeUp.restart();
+				fadeUp9.restart();
 	} else {}
 });
 
@@ -656,7 +656,7 @@ $('#scroll-in-works2').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp10.play();
-		//		fadeUp.restart();
+				fadeUp10.restart();
 	} else {}
 });
 
@@ -664,7 +664,7 @@ $('#scroll-in-works0').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp11.play();
-		//		fadeUp.restart();
+				fadeUp11.restart();
 	} else {}
 });
 
@@ -674,7 +674,7 @@ $('#scroll-in-awards1').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp12.play();
-		//		fadeUp.restart();
+				fadeUp12.restart();
 	} else {}
 });
 
@@ -682,7 +682,7 @@ $('#scroll-in-awards2').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp13.play();
-		//		fadeUp.restart();
+				fadeUp13.restart();
 	} else {}
 });
 
@@ -690,7 +690,7 @@ $('#scroll-in-awards3').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp14.play();
-		//		fadeUp.restart();
+				fadeUp14.restart();
 	} else {}
 });
 
@@ -700,7 +700,7 @@ $('#scroll-in-testi1').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp15.play();
-		//		fadeUp.restart();
+				fadeUp15.restart();
 	} else {}
 });
 
@@ -708,7 +708,7 @@ $('#scroll-in-testi2').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp16.play();
-		//		fadeUp.restart();
+				fadeUp16.restart();
 	} else {}
 });
 
@@ -716,7 +716,7 @@ $('#scroll-in-cv1').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp17.play();
-		//		fadeUp.restart();
+				fadeUp17.restart();
 	} else {}
 });
 
@@ -724,7 +724,7 @@ $('#scroll-in-cv2').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp18.play();
-		//		fadeUp.restart();
+				fadeUp18.restart();
 	} else {}
 });
 
@@ -732,7 +732,7 @@ $('#scroll-in-cv3').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp19.play();
-		//		fadeUp.restart();
+				fadeUp19.restart();
 	} else {}
 });
 
@@ -740,6 +740,6 @@ $('#scroll-in-cv0').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp20.play();
-		//		fadeUp.restart();
+				fadeUp20.restart();
 	} else {}
 });
