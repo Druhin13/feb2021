@@ -53,7 +53,7 @@ var slideUp = anime.timeline({
 slideUp
 	.add({
 		targets: '.slide-up',
-		translateY: ["5em", 0],
+		translateY: ["3em", 0],
 		opacity: [0, 1],
 		translateZ: 0,
 		duration: 1000,
