@@ -528,6 +528,113 @@ fadeUp20
 
 
 
+// case study links
+
+var fadeUp21 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp21
+	.add({
+		targets: '.fade-up21 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp22 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp22
+	.add({
+		targets: '.fade-up22 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [-10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp23 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp23
+	.add({
+		targets: '.fade-up23 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp24 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp24
+	.add({
+		targets: '.fade-up24 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [-10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp25 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp25
+	.add({
+		targets: '.fade-up25 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+var fadeUp26 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp26
+	.add({
+		targets: '.fade-up26 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		rotateZ: [-10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+
+
 
 
 
@@ -882,53 +989,103 @@ $('#scroll-in-cv0').on('inview', function (event, isInView) {
 
 
 
-
-
-
-$('#scroll-in-about-text').on('inview', function (event, isInView) {
+$('#scroll-in-stamurai').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		slideUp2.play();
+		fadeUp21.play();
 		//				fadeUp20.restart();
 	} else {}
 });
 
-$('#scroll-in-about-text2').on('inview', function (event, isInView) {
+$('#scroll-in-insanedeals').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		slideUp2.play();
+		fadeUp22.play();
 		//				fadeUp20.restart();
 	} else {}
 });
 
-$('#scroll-in-expand').on('inview', function (event, isInView) {
+$('#scroll-in-fathomoptics').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		slideUp3.play();
+		fadeUp23.play();
 		//				fadeUp20.restart();
 	} else {}
 });
 
-$('#scroll-in-test1').on('inview', function (event, isInView) {
+$('#scroll-in-keralaonroad').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		slideUp4.play();
+		fadeUp24.play();
 		//				fadeUp20.restart();
 	} else {}
 });
 
-$('#scroll-in-test2').on('inview', function (event, isInView) {
+$('#scroll-in-mausumi').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		slideUp5.play();
+		fadeUp25.play();
 		//				fadeUp20.restart();
 	} else {}
 });
 
-$('#scroll-in-test3').on('inview', function (event, isInView) {
+$('#scroll-in-khatabook').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
-		slideUp6.play();
+		fadeUp26.play();
 		//				fadeUp20.restart();
 	} else {}
 });
+
+
+
+
+
+//
+//$('#scroll-in-about-text').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		slideUp2.play();
+//		//				fadeUp20.restart();
+//	} else {}
+//});
+//
+//$('#scroll-in-about-text2').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		slideUp2.play();
+//		//				fadeUp20.restart();
+//	} else {}
+//});
+//
+//$('#scroll-in-expand').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		slideUp3.play();
+//		//				fadeUp20.restart();
+//	} else {}
+//});
+//
+//$('#scroll-in-test1').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		slideUp4.play();
+//		//				fadeUp20.restart();
+//	} else {}
+//});
+//
+//$('#scroll-in-test2').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		slideUp5.play();
+//		//				fadeUp20.restart();
+//	} else {}
+//});
+//
+//$('#scroll-in-test3').on('inview', function (event, isInView) {
+//	if (isInView) {
+//		// Put the play below this line
+//		slideUp6.play();
+//		//				fadeUp20.restart();
+//	} else {}
+//});
