@@ -18,6 +18,13 @@
 		background: #dbdbdb;
 	}
 
+/*
+	.all {
+		transition: transform 0.25s;
+		will-change: transform;
+	}
+*/
+
 	/*	adding blend mode to menu links*/
 	.diff {
 		mix-blend-mode: difference;
@@ -125,7 +132,7 @@
 
 	.tricksword {
 		opacity: 0;
-/*
+		/*
 		padding-top: 2px;
 		padding-bottom: 2px;
 */
@@ -161,10 +168,7 @@
 	style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
 	document.head.appendChild(style);
 
-
-
 	//smooth scrolling links
-
 
 	// Select all links with hashes
 	$('a[href*="#"]')
@@ -211,3 +215,4 @@
 </script>
 <script src="text-anime.js"></script>
 <script src="pre-load.js"></script>
+<!--<script src="skew-scroll.js"></script>-->
