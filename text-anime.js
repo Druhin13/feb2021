@@ -63,6 +63,27 @@ slideUp
 	});
 
 
+var slideUp2 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+slideUp2
+	.add({
+		targets: '.slide-up2 .tricksword',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+//		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1500,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+
+
+
 
 
 
@@ -783,6 +804,20 @@ $('#scroll-in-cv0').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		fadeUp20.play();
+		//				fadeUp20.restart();
+	} else {}
+});
+
+
+
+
+
+
+
+$('#scroll-in-about-text').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		slideUp2.play();
 		//				fadeUp20.restart();
 	} else {}
 });
