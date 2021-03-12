@@ -454,7 +454,7 @@ fadeIn
 		rotateZ: [10, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
-		delay: (el, i) => 0 + 30 * i
+		delay: 350
 	});
 
 
@@ -472,7 +472,7 @@ fadeIn2
 		rotateZ: [10, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
-		delay: (el, i) => 0 + 30 * i
+		delay: 350
 	});
 
 
