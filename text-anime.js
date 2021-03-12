@@ -541,7 +541,7 @@ fadeUp21
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [10, 0],
+		rotateZ: [15, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -558,7 +558,7 @@ fadeUp22
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [-10, 0],
+		rotateZ: [15, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -575,7 +575,7 @@ fadeUp23
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [10, 0],
+		rotateZ: [15, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -592,7 +592,7 @@ fadeUp24
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [-10, 0],
+		rotateZ: [15, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -609,7 +609,7 @@ fadeUp25
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [10, 0],
+		rotateZ: [15, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
@@ -626,7 +626,7 @@ fadeUp26
 		translateY: [100, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-		rotateZ: [-10, 0],
+		rotateZ: [15, 0],
 		easing: "easeOutExpo",
 		duration: 1500,
 		delay: (el, i) => 0 + 30 * i
