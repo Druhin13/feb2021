@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 10 2021 14:54:12 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Mar 12 2021 06:15:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2757,6 +2757,7 @@ textarea.w-select {
 
 .h2 {
 	display: inline-block;
+	overflow: hidden;
 	margin-bottom: 0vh;
 	padding-top: 2px;
 	padding-bottom: 2px;
@@ -2960,7 +2961,7 @@ textarea.w-select {
 	display: flex;
 	width: 100vw;
 	height: 76vh;
-	margin-bottom: 2vh;
+	margin-bottom: 0vh;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
@@ -3553,6 +3554,150 @@ textarea.w-select {
 	height: 100vh;
 }
 
+.preloader {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	z-index: 190;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #dbdbdb;
+}
+
+.loading {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	height: 100%;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	font-family: Bigilla, sans-serif;
+	color: #101010;
+	font-size: 5.2vw;
+	line-height: 1;
+	font-weight: 700;
+	text-align: center;
+}
+
+.counter {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	width: 3vw;
+	height: 100%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	font-family: Bigilla, sans-serif;
+	color: #101010;
+	font-size: 2.6vw;
+	line-height: 1;
+	font-weight: 700;
+	text-align: left;
+}
+
+.loading-text {
+	position: fixed;
+	top: 45%;
+	bottom: 45%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 10vh;
+}
+
+.loading-text.slide-up {
+	overflow: hidden;
+}
+
+.loader-footer {
+	position: static;
+	left: 0%;
+	top: auto;
+	right: 0%;
+	bottom: 0%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100vw;
+	height: 4.5vh;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #c4c4c4;
+}
+
+.utility-page-wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	max-height: 100%;
+	max-width: 100%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.utility-page-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 260px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
+}
+
 @media screen and (min-width: 1280px) {
 	.section-2 {
 		-webkit-box-align: center;
@@ -3572,6 +3717,10 @@ textarea.w-select {
 	.image {
 		height: auto;
 		margin-left: 4vw;
+	}
+
+	.loading-text {
+		height: 11vh;
 	}
 }
 
@@ -3819,6 +3968,19 @@ textarea.w-select {
 
 	.link-block.cs-names {
 		color: #dbdbdb;
+	}
+
+	.loading {
+		font-size: 7vw;
+	}
+
+	.counter {
+		width: 5vw;
+		font-size: 3.5vw;
+	}
+
+	.loading-text {
+		height: 8vh;
 	}
 }
 
@@ -4205,6 +4367,15 @@ textarea.w-select {
 		padding-bottom: 2.5vh;
 		padding-left: 5vw;
 		color: #dbdbdb;
+	}
+
+	.loading {
+		font-size: 14vw;
+	}
+
+	.counter {
+		width: 9vw;
+		font-size: 7vw;
 	}
 }
 
