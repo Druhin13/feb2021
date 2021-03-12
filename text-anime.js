@@ -74,12 +74,83 @@ slideUp2
 		translateY: [10, 0],
 		translateZ: 0,
 		opacity: [0, 1],
-//		rotateZ: [10, 0],
+		//		rotateZ: [10, 0],
 		easing: "easeOutExpo",
-		duration: 1500,
+		duration: 1000,
 		delay: (el, i) => 0 + 30 * i
 	});
 
+
+var slideUp3 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+slideUp3
+	.add({
+		targets: '.slide-up3 .tricksword',
+		translateY: [10, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		//		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1000,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var slideUp4 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+slideUp4
+	.add({
+		targets: '.slide-up4 .tricksword',
+		translateY: [10, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		//		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1000,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var slideUp5 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+slideUp5
+	.add({
+		targets: '.slide-up5 .tricksword',
+		translateY: [10, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		//		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1000,
+		delay: (el, i) => 0 + 30 * i
+	});
+
+
+var slideUp6 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+slideUp6
+	.add({
+		targets: '.slide-up6 .tricksword',
+		translateY: [10, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		//		rotateZ: [10, 0],
+		easing: "easeOutExpo",
+		duration: 1000,
+		delay: (el, i) => 0 + 30 * i
+	});
 
 
 
@@ -818,6 +889,46 @@ $('#scroll-in-about-text').on('inview', function (event, isInView) {
 	if (isInView) {
 		// Put the play below this line
 		slideUp2.play();
+		//				fadeUp20.restart();
+	} else {}
+});
+
+$('#scroll-in-about-text2').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		slideUp2.play();
+		//				fadeUp20.restart();
+	} else {}
+});
+
+$('#scroll-in-expand').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		slideUp3.play();
+		//				fadeUp20.restart();
+	} else {}
+});
+
+$('#scroll-in-test1').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		slideUp4.play();
+		//				fadeUp20.restart();
+	} else {}
+});
+
+$('#scroll-in-test2').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		slideUp5.play();
+		//				fadeUp20.restart();
+	} else {}
+});
+
+$('#scroll-in-test3').on('inview', function (event, isInView) {
+	if (isInView) {
+		// Put the play below this line
+		slideUp6.play();
 		//				fadeUp20.restart();
 	} else {}
 });
