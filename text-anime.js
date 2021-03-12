@@ -71,7 +71,7 @@ var slideUp2 = anime.timeline({
 slideUp2
 	.add({
 		targets: '.slide-up2 .tricksword',
-		translateY: [25, 0],
+		translateY: [10, 0],
 		translateZ: 0,
 		opacity: [0, 1],
 //		rotateZ: [10, 0],
