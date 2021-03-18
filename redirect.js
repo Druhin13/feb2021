@@ -1,35 +1,41 @@
-function StamuraiRedirect() {
+//function StamuraiRedirect() {
+//	setTimeout(function () {
+//		window.location = "https://druh.in/stamurai";
+//	}, 3000);
+//}
+
+$("#stamurai-cs").click(function () {
 	setTimeout(function () {
 		window.location = "https://druh.in/stamurai";
 	}, 3000);
-}
+});
 
-function InsaneDealsRedirect() {
+$("#insanedeals-cs").click(function () {
 	setTimeout(function () {
 		window.location = "https://druh.in/insanedeals";
 	}, 3000);
-}
+});
 
-function FathomOpticsRedirect() {
+$("#fathomoptics-cs").click(function () {
 	setTimeout(function () {
 		window.location = "https://druh.in/fathomoptics";
 	}, 3000);
-}
+});
 
-function KeralaOnRoadRedirect() {
+$("#keralaonroad-cs").click(function () {
 	setTimeout(function () {
 		window.location = "https://druh.in/keralaonroad";
 	}, 3000);
-}
+});
 
-function MausumiRedirect() {
+$("#mausumi-cs").click(function () {
 	setTimeout(function () {
 		window.location = "https://druh.in/mausumi";
 	}, 3000);
-}
+});
 
-function KhatabookRedirect() {
+$("#khatabook-cs").click(function () {
 	setTimeout(function () {
 		window.location = "https://druh.in/khatabook";
 	}, 3000);
-}
+});
