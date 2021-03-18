@@ -1,4 +1,4 @@
-/* Generated on: Wed Mar 17 2021 14:41:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Mar 18 2021 16:46:17 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2357,7 +2357,7 @@ textarea.w-select {
 }
 
 .text-block.menu.footer-text {
-	width: 40vw;
+	width: 30vw;
 	margin-bottom: 4.5vh;
 	text-align: center;
 }
@@ -3112,6 +3112,10 @@ textarea.w-select {
 	cursor: none;
 }
 
+.marquee-horizontal.mail-me.stamurai-cs {
+	margin-bottom: 0vh;
+}
+
 .track-horizontal {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -3137,6 +3141,13 @@ textarea.w-select {
 
 .cs-hover-video.stamurai {
 	opacity: 0.7;
+}
+
+.cs-hover-video.stamurai.cs {
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	opacity: 1;
 }
 
 .cs-hover-video.insanedeals {
@@ -3171,6 +3182,15 @@ textarea.w-select {
 	background-color: #000;
 }
 
+.overlay.stamurai.cs {
+	z-index: 55;
+	overflow: hidden;
+	width: 100vw;
+	height: 70vh;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
 .overlay.insanedeals {
 	width: 20vw;
 }
@@ -3186,6 +3206,12 @@ textarea.w-select {
 .overlay.khatabook {
 	width: 15vw;
 	height: 40vh;
+}
+
+.overlay.cs {
+	z-index: 55;
+	width: 100vw;
+	height: 70vh;
 }
 
 .stamurai-hover {
@@ -3698,6 +3724,82 @@ textarea.w-select {
 	text-align: center;
 }
 
+.stamurai-cs {
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: #101010;
+}
+
+.section-7 {
+	width: 100vw;
+	height: 100vh;
+}
+
+.div-block-11 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 30vh;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.background-video {
+	width: 100vw;
+	height: 70vh;
+}
+
+.div-block-12 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100vw;
+	height: 30vh;
+	margin-top: 70vh;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.big-video {
+	width: 100vw;
+	height: 70vh;
+}
+
+.background-video-2 {
+	position: absolute;
+	z-index: 50;
+	width: 100vw;
+	height: 70vh;
+	opacity: 0.7;
+}
+
+.section-8 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100vh;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
 @media screen and (min-width: 1280px) {
 	.section-2 {
 		-webkit-box-align: center;
@@ -3944,11 +4046,75 @@ textarea.w-select {
 	}
 
 	.cursor-wrapper {
-		display: none;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
 	}
 
 	.img-container {
-		display: none;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.cs-hover-video.stamurai {
+		width: 28vw;
+		height: 15vh;
+	}
+
+	.cs-hover-video.insanedeals {
+		width: 22vw;
+		height: 15vh;
+	}
+
+	.cs-hover-video.fathomoptics {
+		width: 28vw;
+		height: 15vh;
+	}
+
+	.cs-hover-video.keralaonroad {
+		width: 26vw;
+		height: 15vh;
+	}
+
+	.cs-hover-video.mausumi {
+		width: 24vw;
+		height: 15vh;
+	}
+
+	.cs-hover-video.khatabook {
+		width: 16vw;
+		height: 20vh;
+	}
+
+	.overlay.stamurai {
+		width: 28vw;
+		height: 15vh;
+	}
+
+	.overlay.insanedeals {
+		width: 22vw;
+		height: 15vh;
+	}
+
+	.overlay.fathomoptics {
+		height: 15vh;
+	}
+
+	.overlay.keralaonroad {
+		height: 15vh;
+	}
+
+	.overlay.mausumi {
+		width: 24vw;
+		height: 15vh;
+	}
+
+	.overlay.khatabook {
+		width: 16vw;
+		height: 20vh;
 	}
 
 	.cursor {
@@ -4355,6 +4521,66 @@ textarea.w-select {
 
 	.marquee-horizontal.cs {
 		display: none;
+	}
+
+	.cs-hover-video.stamurai {
+		width: 45vw;
+		height: 13vh;
+	}
+
+	.cs-hover-video.insanedeals {
+		width: 40vw;
+		height: 13vh;
+	}
+
+	.cs-hover-video.fathomoptics {
+		width: 45vw;
+		height: 13vh;
+	}
+
+	.cs-hover-video.keralaonroad {
+		width: 42vw;
+		height: 13vh;
+	}
+
+	.cs-hover-video.mausumi {
+		width: 42vw;
+		height: 13vh;
+	}
+
+	.cs-hover-video.khatabook {
+		width: 30vw;
+		height: 18vh;
+	}
+
+	.overlay.stamurai {
+		width: 45vw;
+		height: 13vh;
+	}
+
+	.overlay.insanedeals {
+		width: 40vw;
+		height: 13vh;
+	}
+
+	.overlay.fathomoptics {
+		width: 45vw;
+		height: 13vh;
+	}
+
+	.overlay.keralaonroad {
+		width: 42vw;
+		height: 13vh;
+	}
+
+	.overlay.mausumi {
+		width: 42vw;
+		height: 13vh;
+	}
+
+	.overlay.khatabook {
+		width: 30vw;
+		height: 18vh;
 	}
 
 	.scroll-down-hover {
