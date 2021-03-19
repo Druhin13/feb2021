@@ -19192,11 +19192,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["medium"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19228,9 +19232,49 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			},
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1616085730979
+		},
+		"e-174": {
+			"id": "e-174",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_CLICK",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-48",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-175"
+				}
+			},
+			"mediaQueries": ["main"],
+			"target": {
 				"appliesTo": "ELEMENT",
 				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|760713bb-c8b3-458b-98c8-d063c0152062"
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
 			},
 			"targets": [],
 			"config": {
@@ -19242,7 +19286,79 @@ Webflow.require('ix2').init({
 				"direction": null,
 				"effectIn": null
 			},
-			"createdOn": 1616085730979
+			"createdOn": 1616127908880
+		},
+		"e-176": {
+			"id": "e-176",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_CLICK",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-49",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-177"
+				}
+			},
+			"mediaQueries": ["medium"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1616128272621
+		},
+		"e-178": {
+			"id": "e-178",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_CLICK",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-50",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-179"
+				}
+			},
+			"mediaQueries": ["tiny"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1616128322013
 		}
 	},
 	"actionLists": {
@@ -27803,7 +27919,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".background-video-2",
 							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
@@ -27811,7 +27926,8 @@ Webflow.require('ix2').init({
 						"widthValue": 100,
 						"heightValue": 100,
 						"widthUnit": "vw",
-						"heightUnit": "vh"
+						"heightUnit": "vh",
+						"locked": false
 					}
 				}, {
 					"id": "a-45-n-21",
@@ -27820,7 +27936,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".overlay.cs",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
@@ -27828,7 +27943,8 @@ Webflow.require('ix2').init({
 						"widthValue": 100,
 						"heightValue": 100,
 						"widthUnit": "vw",
-						"heightUnit": "vh"
+						"heightUnit": "vh",
+						"locked": false
 					}
 				}, {
 					"id": "a-45-n-22",
@@ -27880,11 +27996,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".insanedeals-hover",
 							"selectorGuids": ["2caafe43-31ed-6551-d307-bd46d5827f51"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-45-n-26",
@@ -27893,11 +28009,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".fathomoptics-hover",
 							"selectorGuids": ["e4739f75-166e-335e-8bbd-8800f1a16348"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-45-n-27",
@@ -27906,11 +28022,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".keralaonroad-hover",
 							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-45-n-28",
@@ -27919,11 +28035,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".mausumi-hover",
 							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-45-n-29",
@@ -27932,11 +28048,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".khatabook-hover",
 							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
-						}
+						},
+						"value": "none"
 					}
 				}]
 			}, {
@@ -28032,9 +28148,10 @@ Webflow.require('ix2').init({
 							"selector": ".body",
 							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
 						},
+						"globalSwatchId": "",
 						"rValue": 0,
-						"gValue": 0,
 						"bValue": 0,
+						"gValue": 0,
 						"aValue": 1
 					}
 				}, {
@@ -28058,11 +28175,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".cursor-wrapper",
 							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
-						}
+						},
+						"value": "none"
 					}
 				}]
 			}],
@@ -28114,7 +28231,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".background-video-2",
 							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
@@ -28122,7 +28238,8 @@ Webflow.require('ix2').init({
 						"widthValue": 100,
 						"heightValue": 100,
 						"widthUnit": "vw",
-						"heightUnit": "vh"
+						"heightUnit": "vh",
+						"locked": false
 					}
 				}, {
 					"id": "a-46-n-4",
@@ -28131,7 +28248,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".overlay.cs",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
@@ -28139,7 +28255,8 @@ Webflow.require('ix2').init({
 						"widthValue": 100,
 						"heightValue": 100,
 						"widthUnit": "vw",
-						"heightUnit": "vh"
+						"heightUnit": "vh",
+						"locked": false
 					}
 				}, {
 					"id": "a-46-n-5",
@@ -28191,11 +28308,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".insanedeals-hover",
 							"selectorGuids": ["2caafe43-31ed-6551-d307-bd46d5827f51"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-46-n-9",
@@ -28204,11 +28321,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".fathomoptics-hover",
 							"selectorGuids": ["e4739f75-166e-335e-8bbd-8800f1a16348"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-46-n-10",
@@ -28217,11 +28334,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".keralaonroad-hover",
 							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-46-n-11",
@@ -28230,11 +28347,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".mausumi-hover",
 							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-46-n-12",
@@ -28243,11 +28360,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".khatabook-hover",
 							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
-						}
+						},
+						"value": "none"
 					}
 				}]
 			}, {
@@ -28343,9 +28460,10 @@ Webflow.require('ix2').init({
 							"selector": ".body",
 							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
 						},
+						"globalSwatchId": "",
 						"rValue": 0,
-						"gValue": 0,
 						"bValue": 0,
+						"gValue": 0,
 						"aValue": 1
 					}
 				}, {
@@ -28369,11 +28487,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".cursor-wrapper",
 							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
-						}
+						},
+						"value": "none"
 					}
 				}]
 			}],
@@ -28425,7 +28543,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".background-video-2",
 							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
@@ -28433,7 +28550,8 @@ Webflow.require('ix2').init({
 						"widthValue": 100,
 						"heightValue": 100,
 						"widthUnit": "vw",
-						"heightUnit": "vh"
+						"heightUnit": "vh",
+						"locked": false
 					}
 				}, {
 					"id": "a-47-n-4",
@@ -28442,7 +28560,6 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 500,
-						"locked": false,
 						"target": {
 							"selector": ".overlay.cs",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
@@ -28450,7 +28567,8 @@ Webflow.require('ix2').init({
 						"widthValue": 100,
 						"heightValue": 100,
 						"widthUnit": "vw",
-						"heightUnit": "vh"
+						"heightUnit": "vh",
+						"locked": false
 					}
 				}, {
 					"id": "a-47-n-5",
@@ -28502,11 +28620,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".insanedeals-hover",
 							"selectorGuids": ["2caafe43-31ed-6551-d307-bd46d5827f51"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-47-n-9",
@@ -28515,11 +28633,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".fathomoptics-hover",
 							"selectorGuids": ["e4739f75-166e-335e-8bbd-8800f1a16348"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-47-n-10",
@@ -28528,11 +28646,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".keralaonroad-hover",
 							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-47-n-11",
@@ -28541,11 +28659,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".mausumi-hover",
 							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
-						}
+						},
+						"value": "none"
 					}
 				}, {
 					"id": "a-47-n-12",
@@ -28554,11 +28672,11 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".khatabook-hover",
 							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
-						}
+						},
+						"value": "none"
 					}
 				}]
 			}, {
@@ -28654,9 +28772,10 @@ Webflow.require('ix2').init({
 							"selector": ".body",
 							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
 						},
+						"globalSwatchId": "",
 						"rValue": 0,
-						"gValue": 0,
 						"bValue": 0,
+						"gValue": 0,
 						"aValue": 1
 					}
 				}, {
@@ -28680,11 +28799,947 @@ Webflow.require('ix2').init({
 						"delay": 0,
 						"easing": "",
 						"duration": 0,
-						"value": "none",
 						"target": {
 							"selector": ".cursor-wrapper",
 							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
-						}
+						},
+						"value": "none"
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615994033204
+		},
+		"a-48": {
+			"id": "a-48",
+			"title": "insanedeals video transition desktop",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-48-n",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"widthValue": 20,
+						"heightValue": 32,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-2",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".overlay.insanedeals",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
+						},
+						"widthValue": 20,
+						"heightValue": 32,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-3",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-4",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".overlay.cs",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-5",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-48-n-6",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "flex"
+					}
+				}, {
+					"id": "a-48-n-7",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 500,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}, {
+					"id": "a-48-n-8",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".stamurai-hover",
+							"selectorGuids": ["f5a814b3-e54f-3d78-effa-62e666e9aff2"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-48-n-9",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".fathomoptics-hover",
+							"selectorGuids": ["e4739f75-166e-335e-8bbd-8800f1a16348"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-48-n-10",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".keralaonroad-hover",
+							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-48-n-11",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".mausumi-hover",
+							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-48-n-12",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".khatabook-hover",
+							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
+						},
+						"value": "none"
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-48-n-13",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-48-n-14",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-15",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".overlay.insanedeals",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-16",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 2000,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-48-n-17",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"heightValue": 100,
+						"widthUnit": "AUTO",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-48-n-18",
+					"actionTypeId": "STYLE_BACKGROUND_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-48-n-19",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".everything",
+							"selectorGuids": ["20b61c3a-9bef-2db6-98c1-5d375da5e3d6"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-48-n-20",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "none"
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615994033204
+		},
+		"a-49": {
+			"id": "a-49",
+			"title": "insanedeals video transition tablet",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-49-n",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"widthValue": 22,
+						"heightValue": 15,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-2",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".overlay.insanedeals",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
+						},
+						"widthValue": 22,
+						"heightValue": 15,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-3",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-4",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".overlay.cs",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-5",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-49-n-6",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "flex"
+					}
+				}, {
+					"id": "a-49-n-7",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 500,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}, {
+					"id": "a-49-n-8",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".stamurai-hover",
+							"selectorGuids": ["f5a814b3-e54f-3d78-effa-62e666e9aff2"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-49-n-9",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".fathomoptics-hover",
+							"selectorGuids": ["e4739f75-166e-335e-8bbd-8800f1a16348"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-49-n-10",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".keralaonroad-hover",
+							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-49-n-11",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".mausumi-hover",
+							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-49-n-12",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".khatabook-hover",
+							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
+						},
+						"value": "none"
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-49-n-13",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-49-n-14",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-15",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".overlay.insanedeals",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-16",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 2000,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-49-n-17",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"heightValue": 100,
+						"widthUnit": "AUTO",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-49-n-18",
+					"actionTypeId": "STYLE_BACKGROUND_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-49-n-19",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".everything",
+							"selectorGuids": ["20b61c3a-9bef-2db6-98c1-5d375da5e3d6"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-49-n-20",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "none"
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615994033204
+		},
+		"a-50": {
+			"id": "a-50",
+			"title": "insanedeals video transition mobile",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-50-n",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"widthValue": 40,
+						"heightValue": 13,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-2",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".overlay.insanedeals",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
+						},
+						"widthValue": 40,
+						"heightValue": 13,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-3",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-4",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".overlay.cs",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-5",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-50-n-6",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "flex"
+					}
+				}, {
+					"id": "a-50-n-7",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 500,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}, {
+					"id": "a-50-n-8",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".stamurai-hover",
+							"selectorGuids": ["f5a814b3-e54f-3d78-effa-62e666e9aff2"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-50-n-9",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".fathomoptics-hover",
+							"selectorGuids": ["e4739f75-166e-335e-8bbd-8800f1a16348"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-50-n-10",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".keralaonroad-hover",
+							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-50-n-11",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".mausumi-hover",
+							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-50-n-12",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".khatabook-hover",
+							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
+						},
+						"value": "none"
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-50-n-13",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-50-n-14",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-15",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".overlay.insanedeals",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-16",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 2000,
+						"target": {
+							"selector": ".cs-hover-video.insanedeals",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-50-n-17",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"heightValue": 100,
+						"widthUnit": "AUTO",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-50-n-18",
+					"actionTypeId": "STYLE_BACKGROUND_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-50-n-19",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".everything",
+							"selectorGuids": ["20b61c3a-9bef-2db6-98c1-5d375da5e3d6"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-50-n-20",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "none"
 					}
 				}]
 			}],
