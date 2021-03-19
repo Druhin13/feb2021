@@ -19272,11 +19272,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19308,11 +19312,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["medium"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19344,11 +19352,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|7d394969-e0a1-1b41-01d4-663f7321da4f",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19380,11 +19392,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19416,11 +19432,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["medium"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19452,11 +19472,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19488,11 +19512,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19524,11 +19552,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["medium"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19560,11 +19592,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|1c811bf5-39b2-8075-e672-bd72b8225c63",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19596,11 +19632,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19632,11 +19672,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["medium"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19668,11 +19712,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|c0139c5a-fd93-f7c6-4eb3-6e90d73cc087",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19704,11 +19752,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["main"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19740,11 +19792,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["medium"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -19776,11 +19832,15 @@ Webflow.require('ix2').init({
 			},
 			"mediaQueries": ["tiny"],
 			"target": {
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
 				"appliesTo": "ELEMENT",
-				"styleBlockIds": [],
-				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6"
+				"styleBlockIds": []
 			},
-			"targets": [],
+			"targets": [{
+				"id": "603baa99d556fc02e18e0571|d516cecb-ad73-e830-d7ab-78a4a7a579b6",
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": []
+			}],
 			"config": {
 				"loop": false,
 				"playInReverse": false,
@@ -28824,8 +28884,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.stamurai",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "31e35b1f-872b-960a-ed12-67e3749cdb31"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -28841,8 +28901,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.stamurai",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "5d7d870c-65cd-3bff-b367-6eaada5970a3"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -29136,8 +29196,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.stamurai",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "31e35b1f-872b-960a-ed12-67e3749cdb31"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -29153,8 +29213,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.stamurai",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "5d7d870c-65cd-3bff-b367-6eaada5970a3"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -29760,8 +29820,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.insanedeals",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -29777,8 +29837,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.insanedeals",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -30072,8 +30132,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.insanedeals",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "16012c47-e2fb-d407-f819-683278c8f678"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -30089,8 +30149,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.insanedeals",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "13885ac0-5788-2420-5460-5833b821f3f3"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -30696,8 +30756,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.fathomoptics",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -30713,8 +30773,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.fathomoptics",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -30804,7 +30864,7 @@ Webflow.require('ix2').init({
 		},
 		"a-53": {
 			"id": "a-53",
-			"title": "fathomoptics video transition tablet 2",
+			"title": "fathomoptics video transition mobile",
 			"actionItemGroups": [{
 				"actionItems": [{
 					"id": "a-53-n",
@@ -31008,8 +31068,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.fathomoptics",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -31025,8 +31085,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.fathomoptics",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -31632,8 +31692,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.keralaonroad",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "8bfd6f0f-d361-ad8c-ad18-3507d5133ed8"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -31649,8 +31709,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.keralaonroad",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9e938719-52ad-2fb6-f967-e67b75c4edc4"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -31944,8 +32004,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.keralaonroad",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "8bfd6f0f-d361-ad8c-ad18-3507d5133ed8"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -31961,8 +32021,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.keralaonroad",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9e938719-52ad-2fb6-f967-e67b75c4edc4"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -32568,8 +32628,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.mausumi",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "d711fdac-8d2b-8b39-a63f-6cc662bd4e4c"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -32585,8 +32645,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.mausumi",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "e03a60fa-c235-1e3d-cbdf-a9eb37496b57"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -32880,8 +32940,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.mausumi",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "d711fdac-8d2b-8b39-a63f-6cc662bd4e4c"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -32897,8 +32957,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.mausumi",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "e03a60fa-c235-1e3d-cbdf-a9eb37496b57"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -33504,8 +33564,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.khatabook",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "4249d628-5c78-4d96-f174-244d327d7841"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -33521,8 +33581,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.khatabook",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "11e7eb40-75a2-3a88-4f76-0198cb71934a"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -33816,8 +33876,8 @@ Webflow.require('ix2').init({
 							"selector": ".cs-hover-video.khatabook",
 							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "4249d628-5c78-4d96-f174-244d327d7841"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
@@ -33833,8 +33893,8 @@ Webflow.require('ix2').init({
 							"selector": ".overlay.khatabook",
 							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "11e7eb40-75a2-3a88-4f76-0198cb71934a"]
 						},
-						"widthValue": 200,
-						"heightValue": 200,
+						"widthValue": 100,
+						"heightValue": 100,
 						"widthUnit": "vw",
 						"heightUnit": "vh",
 						"locked": false
