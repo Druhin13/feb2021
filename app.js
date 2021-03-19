@@ -19359,6 +19359,114 @@ Webflow.require('ix2').init({
 				"effectIn": null
 			},
 			"createdOn": 1616128322013
+		},
+		"e-180": {
+			"id": "e-180",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_CLICK",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-51",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-181"
+				}
+			},
+			"mediaQueries": ["main"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1616131048822
+		},
+		"e-182": {
+			"id": "e-182",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_CLICK",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-52",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-183"
+				}
+			},
+			"mediaQueries": ["medium"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1616131213215
+		},
+		"e-184": {
+			"id": "e-184",
+			"name": "",
+			"animationType": "custom",
+			"eventTypeId": "MOUSE_CLICK",
+			"action": {
+				"id": "",
+				"actionTypeId": "GENERAL_START_ACTION",
+				"config": {
+					"delay": 0,
+					"easing": "",
+					"duration": 0,
+					"actionListId": "a-53",
+					"affectedElements": {},
+					"playInReverse": false,
+					"autoStopEventId": "e-185"
+				}
+			},
+			"mediaQueries": ["tiny"],
+			"target": {
+				"appliesTo": "ELEMENT",
+				"styleBlockIds": [],
+				"id": "603baa99d556fc02e18e0571|2dd5f20f-a011-e1d5-9b34-61f5891f1522"
+			},
+			"targets": [],
+			"config": {
+				"loop": false,
+				"playInReverse": false,
+				"scrollOffsetValue": null,
+				"scrollOffsetUnit": null,
+				"delay": null,
+				"direction": null,
+				"effectIn": null
+			},
+			"createdOn": 1616131262369
 		}
 	},
 	"actionLists": {
@@ -29730,6 +29838,942 @@ Webflow.require('ix2').init({
 					}
 				}, {
 					"id": "a-50-n-20",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "none"
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615994033204
+		},
+		"a-51": {
+			"id": "a-51",
+			"title": "fathomoptics video transition desktop",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-51-n",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"widthValue": 28,
+						"heightValue": 32,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-2",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".overlay.fathomoptics",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
+						},
+						"widthValue": 28,
+						"heightValue": 32,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-3",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-4",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".overlay.cs",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-5",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-51-n-6",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "flex"
+					}
+				}, {
+					"id": "a-51-n-7",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 500,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}, {
+					"id": "a-51-n-8",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".stamurai-hover",
+							"selectorGuids": ["f5a814b3-e54f-3d78-effa-62e666e9aff2"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-51-n-9",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".insanedeals-hover",
+							"selectorGuids": ["2caafe43-31ed-6551-d307-bd46d5827f51"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-51-n-10",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".keralaonroad-hover",
+							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-51-n-11",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".mausumi-hover",
+							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-51-n-12",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".khatabook-hover",
+							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
+						},
+						"value": "none"
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-51-n-13",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-51-n-14",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-15",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".overlay.fathomoptics",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-16",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 2000,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-51-n-17",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"heightValue": 100,
+						"widthUnit": "AUTO",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-51-n-18",
+					"actionTypeId": "STYLE_BACKGROUND_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-51-n-19",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".everything",
+							"selectorGuids": ["20b61c3a-9bef-2db6-98c1-5d375da5e3d6"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-51-n-20",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "none"
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615994033204
+		},
+		"a-52": {
+			"id": "a-52",
+			"title": "fathomoptics video transition tablet",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-52-n",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"widthValue": 28,
+						"heightValue": 15,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-2",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".overlay.fathomoptics",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
+						},
+						"widthValue": 28,
+						"heightValue": 15,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-3",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-4",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".overlay.cs",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-5",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-52-n-6",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "flex"
+					}
+				}, {
+					"id": "a-52-n-7",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 500,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}, {
+					"id": "a-52-n-8",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".stamurai-hover",
+							"selectorGuids": ["f5a814b3-e54f-3d78-effa-62e666e9aff2"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-52-n-9",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".insanedeals-hover",
+							"selectorGuids": ["2caafe43-31ed-6551-d307-bd46d5827f51"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-52-n-10",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".keralaonroad-hover",
+							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-52-n-11",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".mausumi-hover",
+							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-52-n-12",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".khatabook-hover",
+							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
+						},
+						"value": "none"
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-52-n-13",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-52-n-14",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-15",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".overlay.fathomoptics",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-16",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 2000,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-52-n-17",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"heightValue": 100,
+						"widthUnit": "AUTO",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-52-n-18",
+					"actionTypeId": "STYLE_BACKGROUND_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-52-n-19",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".everything",
+							"selectorGuids": ["20b61c3a-9bef-2db6-98c1-5d375da5e3d6"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-52-n-20",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "none"
+					}
+				}]
+			}],
+			"useFirstGroupAsInitialState": true,
+			"createdOn": 1615994033204
+		},
+		"a-53": {
+			"id": "a-53",
+			"title": "fathomoptics video transition tablet 2",
+			"actionItemGroups": [{
+				"actionItems": [{
+					"id": "a-53-n",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"widthValue": 45,
+						"heightValue": 13,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-2",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "outExpo",
+						"duration": 1500,
+						"target": {
+							"selector": ".overlay.fathomoptics",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
+						},
+						"widthValue": 45,
+						"heightValue": 13,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-3",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-4",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".overlay.cs",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "0843b3b8-b61d-0cd3-2f5b-3ee1fce73e29"]
+						},
+						"widthValue": 100,
+						"heightValue": 100,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-5",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 500,
+						"target": {
+							"selector": ".background-video-2",
+							"selectorGuids": ["d4a97e0f-ce34-bc8b-3b24-d7dd876a0c0c"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-53-n-6",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor-wrapper",
+							"selectorGuids": ["0f8534ce-1200-2940-3f6a-260dabc55ed2"]
+						},
+						"value": "flex"
+					}
+				}, {
+					"id": "a-53-n-7",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 500,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}, {
+					"id": "a-53-n-8",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".stamurai-hover",
+							"selectorGuids": ["f5a814b3-e54f-3d78-effa-62e666e9aff2"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-53-n-9",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".insanedeals-hover",
+							"selectorGuids": ["2caafe43-31ed-6551-d307-bd46d5827f51"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-53-n-10",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".keralaonroad-hover",
+							"selectorGuids": ["e3d19d7f-7e2c-a1bb-9f5e-01d802b10fdf"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-53-n-11",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".mausumi-hover",
+							"selectorGuids": ["14de2458-98d8-1562-5949-dc9ae296b058"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-53-n-12",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".khatabook-hover",
+							"selectorGuids": ["4b5ec8fe-b34c-bc4c-3023-a65ada8ef15b"]
+						},
+						"value": "none"
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-53-n-13",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"selector": ".cursor",
+							"selectorGuids": ["882381cf-a2ca-1a74-ff85-66c057e4ac01"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-53-n-14",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-15",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inOutExpo",
+						"duration": 1000,
+						"target": {
+							"selector": ".overlay.fathomoptics",
+							"selectorGuids": ["a532a6bb-61ae-d7e3-867b-260ec980e4a2", "9f76d427-4a5f-31a7-5383-c406d16260fb"]
+						},
+						"widthValue": 200,
+						"heightValue": 200,
+						"widthUnit": "vw",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-16",
+					"actionTypeId": "STYLE_OPACITY",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 2000,
+						"target": {
+							"selector": ".cs-hover-video.fathomoptics",
+							"selectorGuids": ["3329da9f-74ff-42c7-8c38-174677452a55", "81fc3341-4231-244c-b5d5-fd527eb5e8d4"]
+						},
+						"value": 0,
+						"unit": ""
+					}
+				}]
+			}, {
+				"actionItems": [{
+					"id": "a-53-n-17",
+					"actionTypeId": "STYLE_SIZE",
+					"config": {
+						"delay": 0,
+						"easing": "inQuad",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"heightValue": 100,
+						"widthUnit": "AUTO",
+						"heightUnit": "vh",
+						"locked": false
+					}
+				}, {
+					"id": "a-53-n-18",
+					"actionTypeId": "STYLE_BACKGROUND_COLOR",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".body",
+							"selectorGuids": ["76553d88-70bc-0ff1-f5d1-6391bd76c5bc"]
+						},
+						"globalSwatchId": "",
+						"rValue": 0,
+						"bValue": 0,
+						"gValue": 0,
+						"aValue": 1
+					}
+				}, {
+					"id": "a-53-n-19",
+					"actionTypeId": "GENERAL_DISPLAY",
+					"config": {
+						"delay": 0,
+						"easing": "",
+						"duration": 0,
+						"target": {
+							"useEventTarget": "PARENT",
+							"selector": ".everything",
+							"selectorGuids": ["20b61c3a-9bef-2db6-98c1-5d375da5e3d6"]
+						},
+						"value": "none"
+					}
+				}, {
+					"id": "a-53-n-20",
 					"actionTypeId": "GENERAL_DISPLAY",
 					"config": {
 						"delay": 0,
