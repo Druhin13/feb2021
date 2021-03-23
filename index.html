@@ -17,6 +17,11 @@
 	<!--	<meta content="Webflow" name="generator" />-->
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<style>
+
+		.imgBox img{
+			display: none;
+		}
+
 		/*	changing the selection color*/
 		::-moz-selection {
 			color: #121212;
@@ -880,6 +885,21 @@
 	<script src="text-anime.js"></script>
 	<script src="pre-load.js"></script>
 	<script src="redirect.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="hover.js"></script>
+	<script>
+		Array.from(document.querySelectorAll('.imgBox')).forEach((e) => {
+			const imgs = Array.from(e.querySelectorAll('img'));
+			new hoverEffect({
+				parent: e,
+				intensity: 0.3,
+				image1: imgs[0].getAttribute('src'),
+				image2: imgs[1].getAttribute('src'),
+				displacementImage: '4.png'
+			})
+		})
+	</script>
 	<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 
